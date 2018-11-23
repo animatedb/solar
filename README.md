@@ -46,11 +46,14 @@ By doing this exercise, I was able to find a few things we weren't really using,
 I also looked at a cable bill and found that our actual use for one month was 186 kWh, which means that our actual use is about 186kWh/month / 31 days = 6kWh/d. So the measurements and calculations above are not completely accurate. We must be using things a bit more than expected.
 
 <h4>Electric and Natural Gas Use and Cost</h4>
+The following table shows actual electrical cost for one year (2017).
 <table>
   <tr><th>Quantity</th><th>Calculation</th><th>Description</th></tr>
   <tr><td>190 kWh per Month</td><td>159+148+128+145+142+199+197+136+134+209+242+180+217/12=186</td><td>Total Electrical</td></tr>
   <tr><td>22$ per Month</td><td>31+30+17+19+19+27+26+18+18+28+32=265$/12</td><td>Total Cost</td></tr>
   </table>
+The following shows gas cost for one year (2017). The "Heating Only Electrical" shows the additional electrical that could
+be used for heating.
 <table>
   <tr><th>Quantity</th><th>Calculation</th><th>Description</th></tr>
   <tr><td>190 Therms/Year</td><td>27+17+5+4+5+4+4+4+8+28+34+19+31</td><td>Total Heating and Water Heater</td></tr>
