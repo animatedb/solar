@@ -86,7 +86,7 @@ The solar panels I was investigating were about 18.6% efficient. The solar decli
 Putting on a north roof drops efficiency by about 34% and subtract another 7% for roof azimuth angle.
 <p>
 There are a few ways to figure out peak sun hours. There is a calculator here where you can enter your zip code.
-<a href="https://tyconsystems.com/html/nrel_lookup.htm">https://tyconsystems.com/html/nrel_lookup.htm</a>
+<a href="https://tyconsystems.com/html/nrel_lookup.htm">https://tyconsystems.com/html/nrel_lookup.htm</a>.
 For my location, I got, Dec = 3.72, Jul = 7.32. So the average of the two is 3.72+7.32/2 = .552
 <p/>
 Another way is to use https://solarenergylocal.com and use a map to select location. For summer I got 7.02 and for winter 3.62, so the average is 3.62+7.02/2 = .532
