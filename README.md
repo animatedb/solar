@@ -9,9 +9,10 @@ This graph shows the amount of surplus electricity. My utility has an annual tru
 <img src="generation/gen-surplus-2018-11.png">
 
 <h3>Initial Goals</h3>
-I wanted to be green, so I didn't mind paying a bit more for a system that is currently needed. I would expect that I will have an electric vehicle in the future. It is also typically true that you will get paid less for the electricty that is generated than you might expect, especially since it might be the case that electrical costs could drop in the future. So currently I plan to use the excess for electric heating in the winter, which will reduce the gas furnase usage.
+I wanted to be green, so I didn't mind paying a bit more for a system that is currently needed. I would expect that I will have an electric vehicle in the future. It is also typically true that you will get paid less for the electricty that is generated than you might expect, especially since it might be the case that electrical costs could drop in the future. So currently I plan to use the excess for electric heating in the winter, which will reduce the natrual gas furnace usage.
 
 <h3>Figuring out Use</h3>
+<h4>Electric Use</h4>
 I figured out current use two ways. The first was to find the devices in the home that are using electricty. I used a Watt meter (Killawatt) to measure different devices and multiplied by estimated time of use. I am showing these numbers just to give an idea of what some devices can use.
 
 <table>
@@ -44,6 +45,22 @@ By doing this exercise, I was able to find a few things we weren't really using,
 <p/>
 I also looked at a cable bill and found that our actual use for one month was 186 kWh, which means that our actual use is about 186kWh/month / 31 days = 6kWh/d. So the measurements and calculations above are not completely accurate. We must be using things a bit more than expected.
 
+<h4>Electric and Natural Gas Use and Cost</h4>
+<table>
+  <tr><td>Quantity</td><td>Calculation</td><td>Description</td></tr>
+  <tr><td>190 Therms/Year</td><td>31+30+17+19+19+27+26+18+18+28+32=265$/12</td><td>Total Electrical</td></tr>
+  <tr><td>22$/Month</td><td>39+24+7+7.1+5.7+6.8+5.4+5.2+5.2+10.8+38+48+27+43=265$/12</td><td></td></tr>
+  </table>
+<table>
+  <tr><td>Quantity</td><td>Calculation</td><td>Description</td></tr>
+  <tr><td>190 Therms/Year</td><td>27+17+5+4+5+4+4+4+8+28+34+19+31</td><td>Total Heating and Water Heater</td></tr>
+  <tr><td>17$/Month</td><td>39+24+7+7.1+5.7+6.8+5.4+5.2+5.2+10.8+38+48+27+43=265$/12</td><td></td></tr>
+  <tr><td>142 Therms/Year</td><td>190-(48 water heater)</td><td>Heating</td></tr>
+  <tr><td>48 Therms/Year</td><td>12*4=48</td><td>Water Heater</td></tr>
+  <tr><td>346 kWh/Month</td><td>142 therms=4161 kWh / 12</td><td></td></tr>
+  </table>
+
+
 <h3>Estimating Future Use</h3>
 <h4>Electric Car</h4>
 I looked at a few sample cars (2017) to see what the electricty use would be.
@@ -59,3 +76,4 @@ I looked at a few sample cars (2017) to see what the electricty use would be.
 My typical driving at the moment is less than 8K miles/year = 21 miles per day. A Tesla Model 3 will go 100 miles on 23.7 kWh.
 So 23.7 / 100 = .237 kWh per mile * 21 miles = 4.977 or about 5 kWh per day. This means an electric car would double our electricty use.
 
+<h4>Electric Heating</h4>
