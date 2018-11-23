@@ -43,3 +43,19 @@ I figured out current use two ways. The first was to find the devices in the hom
 By doing this exercise, I was able to find a few things we weren't really using, and I was surprised at what the entertainment cost was and that the Cable Box indicated that we were saving electricity when it was off, but really wasn't. Unplugging is more important than expected.
 <p/>
 I also looked at a cable bill and found that our actual use for one month was 186 kWh, which means that our actual use is about 186kWh/month / 31 days = 6kWh/d. So the measurements and calculations above are not completely accurate. We must be using things a bit more than expected.
+
+<h3>Estimating Future Use</h3>
+<h4>Electric Car</h4>
+I looked at a few sample cars (2017) to see what the electricty use would be.
+<table>
+  <tr><th>MPGe</th><th>Car</th><th>Notes</th></tr>
+  <tr><td>136</td><td>Hundai Ioniq</td><td></td></tr>
+  <tr><td>128</td><td>Tesla Model 3</td><td>long range model</td></tr>
+  <tr><td>124</td><td>BMW i3</td><td></td></tr>
+  <tr><td>119</td><td>Chevy Bolt</td><td></td></tr>
+  <tr><td>112</td><td>Nissan Leaf</td><td></td></tr>
+  </table>
+
+My typical driving at the moment is less than 8K miles/year = 21 miles per day. A Tesla Model 3 will go 100 miles on 23.7 kWh.
+So 23.7 / 100 = .237 kWh per mile * 21 miles = 4.977 or about 5 kWh per day. This means an electric car would double our electricty use.
+
