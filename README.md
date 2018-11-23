@@ -52,8 +52,7 @@ The following table shows actual electrical cost for one year (2017).
   <tr><td>190 kWh per Month</td><td>159+148+128+145+142+199+197+136+134+209+242+180+217/12=186</td><td>Total Electrical</td></tr>
   <tr><td>22$ per Month</td><td>31+30+17+19+19+27+26+18+18+28+32=265$/12</td><td>Total Cost</td></tr>
   </table>
-The following shows gas cost for one year (2017). The "Heating Only Electrical" shows the additional electrical that could
-be used for heating.
+The following shows gas cost for one year (2017).
 <table>
   <tr><th>Quantity</th><th>Calculation</th><th>Description</th></tr>
   <tr><td>190 Therms/Year</td><td>27+17+5+4+5+4+4+4+8+28+34+19+31</td><td>Total Heating and Water Heater</td></tr>
@@ -61,9 +60,7 @@ be used for heating.
   <tr><td>142 Therms/Year</td><td>190-(48 water heater)</td><td>Heating Only</td></tr>
   <tr><td>17$/Month</td><td>272$ - (5.5*12=66:water heater) = 206$ / 12 = 17$</td><td>Heating Only Cost</td></tr>
   <tr><td>48 Therms/Year</td><td>12*4=48</td><td>Water Heater</td></tr>
-  <tr><td>346 kWh/Month or 11.4 kWh/day</td><td>142 therms=4161 kWh / 12</td><td>Heating Only Electrical</td></tr>
   </table>
-Using electrical for all of our heating would triple our electrical use.
 
 <h3>Estimating Future Use</h3>
 <h4>Electric Car</h4>
@@ -81,3 +78,4 @@ My typical driving at the moment is less than 8K miles/year = 21 miles per day. 
 So 23.7 / 100 = .237 kWh per mile * 21 miles = 4.977 or about 5 kWh per day. This means an electric car would double our electricty use.
 
 <h4>Electric Heating</h4>
+We used 142 Therms per year for gas heating. 142 therms = 4146 kWh. 4146 / 12 months = 346 kWh, or 4146 / 365 days = 11.4 kWh per day. Using electrical for all of our heating would triple our electrical use.
