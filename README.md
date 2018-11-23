@@ -18,9 +18,11 @@ I figured out current use two ways. The first was to find the devices in the hom
   <tr><th>Wh/day</th><th>Device</th><th>Description</th></tr>
   <!-- Kitchen -->
   <tr><td>1232</td><td>Refrigerator</td><td>Energy rating between 435 and 470 = 450 kWh per year = 1232 Wh</td></tr>
-  <tr><td>200</td><td>Microwave</td><td>1200W * .16h (10 minutes) = 360</td></tr>
   <tr><td>400</td><td>Oven</td><td>2400W * 5 hours per month / 30 days</td></tr>
+  <tr><td>200</td><td>Microwave</td><td>1200W * .16h (10 minutes) = 360</td></tr>
   <tr><td>13</td><td>Range</td><td>800W * .5h * 5 days / 30 days</td></tr>
+  
+  <tr><td>100</td><td>Washer</td><td>500W * 40 minutes = 350W * 2 people / 7 = 100 Wh</td></tr>
 
 <!-- Entertainment/work -->
   <tr><td>540</td><td>TV</td><td>0W when off, 90W * 6h</td></tr>
