@@ -11,7 +11,7 @@ This graph shows the amount of surplus electricity. My utility has an annual tru
 <h3>Initial Goals</h3>
 I wanted to be green, so I didn't mind paying a bit more for a system that is currently needed. I would expect that I will have an electric vehicle in the future. It is also typically true that you will get paid less for the electricty that is generated than you might expect, especially since it might be the case that electrical costs could drop in the future. So currently I plan to use the excess for electric heating in the winter, which will reduce the gas furnase usage.
 
-<h3>Figuring out Future Use</h3>
+<h3>Figuring out Use</h3>
 I figured out current use two ways. The first was to find the devices in the home that are using electricty. I used a Watt meter (Killawatt) to measure different devices and multiplied by estimated time of use. I am showing these numbers just to give an idea of what some devices can use.
 
 <table>
@@ -37,5 +37,9 @@ I figured out current use two ways. The first was to find the devices in the hom
   <tr><td>156</td><td>Office Lights</td><td>26 W * 2 lights * 3 hours = 156 Wh</td></tr>
 
   <tr><td>96</td><td>POE Injector</td><td>4W * 24</td></tr>
-  <tr><td></td><td></td><td></td></tr>
+  <tr><td>3904</td><td>Total</td><td>Wh per day</td></tr>
   </table>
+
+By doing this exercise, I was able to find a few things we weren't really using, and I was surprised at what the entertainment cost was and that the Cable Box indicated that we were saving electricity when it was off, but really wasn't. Unplugging is more important than expected.
+<p/>
+I also looked at a cable bill and found that our actual use for one month was 186 kWh, which means that our actual use is about 186kWh/month / 31 days = 6kWh/d. So the measurements and calculations above are not completely accurate. We must be using things a bit more than expected.
