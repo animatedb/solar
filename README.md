@@ -79,3 +79,14 @@ So 23.7 / 100 = .237 kWh per mile * 21 miles = 4.977 or about 5 kWh per day. Thi
 
 <h4>Electric Heating</h4>
 We used 142 Therms per year for gas heating. 142 therms = 4146 kWh. 4146 / 12 months = 346 kWh, or 4146 / 365 days = 11.4 kWh per day. Using electrical for all of our heating would triple our electrical use.
+
+<h3>Solar Energy and Efficiency</h3>
+There are a few ways to figure out peak sun hours. There is a calculator here where you can enter your zip code.
+<a href="https://tyconsystems.com/html/nrel_lookup.htm">https://tyconsystems.com/html/nrel_lookup.htm</a>
+For my location, I got, Dec = 3.72, Jul = 7.32. So the average of the two is 3.72+7.32/2 = .552
+<p/>
+Another way is to use https://solarenergylocal.com and use a map to select location. For summer I got 7.02 and for winter 3.62, so the average is 3.62+7.02/2 = .532
+<p/>
+This site shows the roof angle information.
+<a href="https://www.civicsolar.com/support/installer/articles/calculating-your-optimal-azimuth-angle">
+  https://www.civicsolar.com/support/installer/articles/calculating-your-optimal-azimuth-angle</a>
