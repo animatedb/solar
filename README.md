@@ -63,7 +63,7 @@ be used for heating.
   <tr><td>48 Therms/Year</td><td>12*4=48</td><td>Water Heater</td></tr>
   <tr><td>346 kWh/Month or 11.4 kWh/day</td><td>142 therms=4161 kWh / 12</td><td>Heating Only Electrical</td></tr>
   </table>
-
+Using electrical for all of our heating would triple our electrical use.
 
 <h3>Estimating Future Use</h3>
 <h4>Electric Car</h4>
