@@ -49,16 +49,16 @@ I also looked at a cable bill and found that our actual use for one month was 18
 <table>
   <tr><th>Quantity</th><th>Calculation</th><th>Description</th></tr>
   <tr><td>190 kWh per Month</td><td>159+148+128+145+142+199+197+136+134+209+242+180+217/12=186</td><td>Total Electrical</td></tr>
-  <tr><td>22$ per Month</td><td>31+30+17+19+19+27+26+18+18+28+32=265$/12</td><td></td></tr>
+  <tr><td>22$ per Month</td><td>31+30+17+19+19+27+26+18+18+28+32=265$/12</td><td>Total Cost</td></tr>
   </table>
 <table>
   <tr><th>Quantity</th><th>Calculation</th><th>Description</th></tr>
   <tr><td>190 Therms/Year</td><td>27+17+5+4+5+4+4+4+8+28+34+19+31</td><td>Total Heating and Water Heater</td></tr>
-  <tr><td>22.6$/Month</td><td>39+24+7+7.1+5.7+6.8+5.4+5.2+5.2+10.8+38+48+27+43=272$/12</td><td></td></tr>
-  <tr><td>142 Therms/Year</td><td>190-(48 water heater)</td><td>Heating</td></tr>
-  <tr><td>17$/Month</td><td>272$ - (5.5*12=66:water heater) = 206$ / 12 = 17$</td><td></td></tr>
+  <tr><td>22.6$/Month</td><td>39+24+7+7.1+5.7+6.8+5.4+5.2+5.2+10.8+38+48+27+43=272$/12</td><td>Total Cost</td></tr>
+  <tr><td>142 Therms/Year</td><td>190-(48 water heater)</td><td>Heating Only</td></tr>
+  <tr><td>17$/Month</td><td>272$ - (5.5*12=66:water heater) = 206$ / 12 = 17$</td><td>Heating Only Cost</td></tr>
   <tr><td>48 Therms/Year</td><td>12*4=48</td><td>Water Heater</td></tr>
-  <tr><td>346 kWh/Month</td><td>142 therms=4161 kWh / 12</td><td></td></tr>
+  <tr><td>346 kWh/Month</td><td>142 therms=4161 kWh / 12</td><td>Heating Only Electrical</td></tr>
   </table>
 
 
