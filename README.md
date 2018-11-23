@@ -81,7 +81,7 @@ So 23.7 / 100 = .237 kWh per mile * 21 miles = 4.977 or about 5 kWh per day. Thi
 We used 142 Therms per year for gas heating. 142 therms = 4146 kWh. 4146 / 12 months = 346 kWh, or 4146 / 365 days = 11.4 kWh per day. Using electrical for all of our heating would triple our electrical use.
 
 <h3>Solar Energy and Efficiency</h3>
-You can find sun angles for your location from different web sites such as <a href="http://solarelectricityhandbook.com/solar-angle-calculator.html">http://solarelectricityhandbook.com/solar-angle-calculator.html</a>.
+You can find sun angles for your location from different web sites such as <a href="https://www.esrl.noaa.gov/gmd/grad/solcalc/azel.html">https://www.esrl.noaa.gov/gmd/grad/solcalc/azel.html</a> or <a href="http://solarelectricityhandbook.com/solar-angle-calculator.html">http://solarelectricityhandbook.com/solar-angle-calculator.html</a>.
 My winter angle is about 60 degrees from horizontal and the summer angle is about 25 degrees. My roof pitch is 18.43 degrees.
 The solar panels I was investigating were about 18.6% efficient. The solar declination for my location was about 23 degrees.
 Putting on a north roof drops efficiency by about 34% and subtract another 7% for roof azimuth angle.
