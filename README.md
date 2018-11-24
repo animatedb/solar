@@ -81,7 +81,7 @@ So 23.7 / 100 = .237 kWh per mile * 21 miles = 4.977 or about 5 kWh per day. Thi
 We used 142 Therms per year for gas heating. 142 therms = 4146 kWh. 4146 / 12 months = 346 kWh, or 4146 / 365 days = 11.4 kWh per day. Using electrical for all of our heating would triple our electrical use.
 
 <h3>Solar Energy and Efficiency</h3>
-You can skip this section to use the online caclulator described below. This does give some information about what is important for roof angles, and your location.
+You can skip this section to use the online caclulator described below in Solar System Size. This section does give some information about what is important for roof angles, and your location.
 You can find sun angles for your location from different web sites such as <a href="https://www.esrl.noaa.gov/gmd/grad/solcalc/azel.html">https://www.esrl.noaa.gov/gmd/grad/solcalc/azel.html</a> or <a href="http://solarelectricityhandbook.com/solar-angle-calculator.html">http://solarelectricityhandbook.com/solar-angle-calculator.html</a>.
 My winter angle is about 60 degrees from horizontal and the summer angle is about 25 degrees. My roof pitch is 18.43 degrees.
 The solar panels I was investigating were about 18.6% efficient. The solar declination for my location was about 23 degrees.
@@ -105,13 +105,31 @@ For my location, it seels like the efficiency is about 1/2 the total during wint
   <tr><td>541</td><td>Base use with heating</td><td>195 kWh + 346 kWh</td></tr>
   <tr><td>696</td><td>Base use with heating and car</td><td>541 kWh + (5 kWh * 31 days)</td></tr>
   </table>
-I used the Wholesale Solar web site at <a href="https://www.wholesalesolar.com/solar-information/solar-cost">
-  https://www.wholesalesolar.com/solar-information/solar-cost</a> to evaluate cost. I eventually purchased a system from that company since it sells a kit and you can install it yourself. I evaluated the following systems.
+I used the Wholesale Solar web site at 
+<a href="https://www.wholesalesolar.com/solar-information/solar-cost">
+  https://www.wholesalesolar.com/solar-information/solar-cost</a> and
+  <a href="https://www.wholesalesolar.com/solar-information/start-here/offgrid-calculator">
+  https://www.wholesalesolar.com/solar-information/start-here/offgrid-calculator</a> to evaluate cost. I eventually purchased a system from that company since it sells a kit and you can install it yourself. I evaluated the following systems.
 <table>
   <tr><th>System Size</th><th>Panels</th><th>System</th><th>Calculation</th></tr>
-  <tr><td>149 kWh</td><td></td><td></td></tr>
-  <tr><td>316 kWh</td><td></td><td></td></tr>
-  <tr><td>447 kWh</td><td></td><td></td></tr>
-  <tr><td>475 kWh</td><td></td><td></td></tr>
+  <tr><td>149 kWh</td><td>4 270W panels</td><td>Partial base use, no car, no heating</td>
+    <td>2497$ for 1.08kW / (148/186=.8*471=375) = 6.6 years</td></tr>
+  <tr><td>316 kWh</td><td>8 290W panels</td><td>Base use, no car, no heating</td>
+    <td>4728$ for 2.32 kW/265$ = 18 Years</td></tr>
+  <tr><td>447 kWh</td><td>12 270W panels</td><td>Partial base use with heating</td>
+    <td>5619$ for 3.24kW kW/(265+206=471$) = 12 years</td></tr>
+  <tr><td>475 kWh</td><td>12 290W panels</td><td>Base use with heating</td>
+    <td>6355$ for 3.48kW / (265+206=471$) = 13.5 years</td></tr>
   </table>
+  
+Notes about the system size:
+<ul>
+  <li>For the 475 kWh numbers, 290 * 12 = 3480 so these must be peak numbers.</li>
+  <li>PTC numbers can be looked
+				up at <a href="https://www.gosolarcalifornia.org/equipment/documents/PV_Module_List_Simplified_Data.xlsx">
+    https://www.gosolarcalifornia.org/equipment/documents/PV_Module_List_Simplified_Data.xlsx</a></li>
+  <li>PTC=266.3 * 95% inverter = 252.98 * 12 panels = 3.035 CEC-AC</li>
+  <li>3.035 CEC-AC * 5.84 peak sun hours = 17.7kWh/day = 17.7 * 31 days = 548.7 kWh</li>
+  <li>These numbers are a bit off from their web site numbers, so perhaps they added in roof pitch or something.</li>
+  </ul>
   
