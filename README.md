@@ -148,7 +148,8 @@ There is one more important part of selecting a system. There are a few types of
 	  since there is no output if it is not connected to the inverter. It actually outputs a low 1V output
 	  for each panel so it is easy to see how many panels are connected correctly.</td</tr>
   <tr><td>Micro Inverter</td><td>This is a small box at each panel that converts the DC to AC so that no
-	  main inverter is needed.</td</tr>
+	  main inverter is needed. This is typically higher cost since many small micro inverters are more
+	  expensive than a single large inverter.</td</tr>
   <tr><td>With Storage</td><td>I don't think this system was available at the time that I purchased a system.</td</tr>
   </ul>
 I ended up picking the 447 kWh system with power optimizers.  I will redo the calculations later since the total system cost is higher than shown here.
