@@ -1,13 +1,14 @@
 # solar
 Hopefully helpful information about installing solar for a residence
 
-<h3>Introduction</h3>
+<h2>Introduction</h2>
 First a couple of graphs to as an introduction, then later get into the details. A 3.24 kW grid-tied system with 12 panels was installed on August of 2018. This first graph shows the amount of electricity generated, and the amount used. This is with no electric car and pretty minimal use of other electricity.
 
 <img src="generation/gen-use-2018-11.png">
 This graph shows the amount of surplus electricity. My utility has an annual true-up program, which means the amount you owe or are paid is figured out once per year. The goal generally is to generate the same amount of electricity over the year as you use.
 <img src="generation/gen-surplus-2018-11.png">
 
+<h2>Selecting a System</h2>
 <h3>Initial Goals</h3>
 I wanted to be green, so I didn't mind paying a bit more for a system that is currently needed. I would expect that I will have an electric vehicle in the future. It is also typically true that you will get paid less for the electricty that is generated than you might expect, especially since it might be the case that electrical costs could drop in the future. So currently I plan to use the excess for electric heating in the winter, which will reduce the natrual gas furnace usage.
 
@@ -160,3 +161,6 @@ With this system, we plan to use a very small amount of electricity in the summe
 <p/>
 We will generate excess electricity in the summer that goes back to the grid, then use a lot in the winter for heating. So the excess in the summer goes towards other people's AC units, which can still reduce the amount of utility plant generation even if we aren't using it.
 	  
+<h2>Planning the System</h2>
+<H2>Installing the System</h2>
+
