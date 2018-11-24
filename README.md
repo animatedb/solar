@@ -200,7 +200,7 @@ There were a few mistakes and adjustments made to the plans.
   </ul>
 <h2>Receiving the System</h2>
 Wholesale Solar photographs the shipment before sending it. The system comes on two pallets.
-<img src="images/UNADJUSTEDNONRAW_thumb_23f4d-mod.jpeg">
+<img src="images/UNADJUSTEDNONRAW_thumb_23f4c-mod.jpeg">
 <img src="images/UNADJUSTEDNONRAW_thumb_23f4e-mod.jpeg">
 
 <H2>Installing the System</h2>
