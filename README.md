@@ -136,6 +136,20 @@ Notes about the system size:
   <li>I used the following to calculate electrical costs, 6kWh * .15 = 0.9$ per day = 328$ per year. This was
 	a bit off since my actual electrical cost for the full year was 217$.</li>
   </ul>
-  
-I ended up picking the 447 kWh system.  I will redo the calculations later since the total system cost is higher than shown here.
-<!-- 7500$ system cost / 471$ actual gas+electric cost per year(2017)=15.9 years -->
+
+<h3>Selecting a system</h3>
+There is one more important part of selecting a system. There are a few types of grid tied systems.
+<ul>
+  <tr><th>System Type</th><th>Description</th</tr>
+  <tr><td>Minimal</td><td>I believe this ties all of the panels together. If a single panel has sun blockage,
+	  then output from other panels can also be reduced.</td</tr>
+  <tr><td>Power Optimizer</td><td>This is a small box at each panel that communicates with the main inverter
+	  to optimize the DC voltage for each panel to send to the inverter. This system is very safe and easy to install
+	  since there is no output if it is not connected to the inverter. It actually outputs a low 1V output
+	  for each panel so it is easy to see how many panels are connected correctly.</td</tr>
+  <tr><td>Micro Inverter</td><td>This is a small box at each panel that converts the DC to AC so that no
+	  main inverter is needed.</td</tr>
+  <tr><td>With Storage</td><td>I don't think this system was available at the time that I purchased a system.</td</tr>
+  </ul>
+I ended up picking the 447 kWh system with power optimizers.  I will redo the calculations later since the total system cost is higher than shown here.
+<!-- 7500$ system cost / 471$ actual gas+electric cost per year(2017)=15.9 years, must also add in grid connect cost -->
