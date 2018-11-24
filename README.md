@@ -139,7 +139,7 @@ Notes about the system size:
 
 <h3>Selecting a system</h3>
 There is one more important part of selecting a system. There are a few types of grid tied systems.
-<ul>
+<table>
   <tr><th>System Type</th><th>Description</th</tr>
   <tr><td>Minimal</td><td>I believe this ties all of the panels together. If a single panel has sun blockage,
 	  then output from other panels can also be reduced.</td</tr>
@@ -151,6 +151,6 @@ There is one more important part of selecting a system. There are a few types of
 	  main inverter is needed. This is typically higher cost since many small micro inverters are more
 	  expensive than a single large inverter.</td</tr>
   <tr><td>With Storage</td><td>I don't think this system was available at the time that I purchased a system.</td</tr>
-  </ul>
+  </table>
 I ended up picking the 447 kWh system with power optimizers.  I will redo the calculations later since the total system cost is higher than shown here.
 <!-- 7500$ system cost / 471$ actual gas+electric cost per year(2017)=15.9 years, must also add in grid connect cost -->
