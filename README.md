@@ -155,3 +155,7 @@ There is one more important part of selecting a system. There are a few types of
 <p/>
 I ended up picking the 447 kWh system with power optimizers because I have a tree and fireplace that could block output from some panels.  The panels are rated at 80% output at 25 years. I will redo the system payoff calculations later since the total system cost is higher than shown here.
 <!-- 7500$ system cost / 471$ actual gas+electric cost per year(2017)=15.9 years, must also add in grid connect cost -->
+With this system, we plan to use a very small amount of electricity in the summer, and generate a lot. So there is no way for us to save it in batteries. Plus I don't think there is a way to not be connected to the grid partly for fire safety reasons. The city/county seem to have a goal that if the utility goes off, so does your solar, then if there is a fire, the firefighters won't get shocked. This also makes it very easy to install some systems (like the one I got) since there is no electrical on the system (except right at the panels) when you install it.
+<p/>
+We will generate excess electricity in the summer that goes back to the grid, then use a lot in the winter for heating. So the excess in the summer goes towards other people's AC units, which can still reduce the amount of utility plant generation even if we aren't using it.
+	  
