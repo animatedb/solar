@@ -133,6 +133,9 @@ Notes about the system size:
   <li>These numbers are a bit off from their web site numbers, so perhaps they added in roof pitch or something.</li>
   <li>The payoff numbers are a bit off from my actual use since I originally used different base use
 	  numbers due to the fact that I didn't have the complete use numbers at the time.</li>
+  <li>I used the following to calculate electrical costs, 6kWh * .15 = 0.9$ per day = 328$ per year. This was
+	a bit off since my actual electrical cost for the full year was 217$.</li>
   </ul>
   
 I ended up picking the 447 kWh system.  I will redo the calculations later since the total system cost is higher than shown here.
+<!-- 7500$ system cost / 471$ actual gas+electric cost per year(2017)=15.9 years -->
