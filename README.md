@@ -176,22 +176,25 @@ For this reason, I decided to purchase plans from Wholesale Solar. The plans cos
 There were a few mistakes and adjustments made to the plans.
 <ul>
   <li>I was originally thinking I would put panels only on the southwest roof. Their plans shows panels on the
-    southwest, southeast, and northeast. They put some on the northeast because they assumed we had a tree that
+    southwest, southeast, and northeast. This would make the install more difficult.
+    They put some on the northeast because they assumed we had a tree that
     would block a lot of solar. I told them we were going to trim the tree since much of it was dead. They
     changed the plans according to my request. The fact that they had solar on the southeast was better than
     my plans, so I am glad that they calculated better than I did. They subcontracted out the calculations to
     <a href="https://www.brightharvestsolar.com/">https://www.brightharvestsolar.com/</a>. These plans
     were pretty nice because they showed the maximum number of panels that could go on the house and
-    the estimated relational efficiency of the panels including shading from trees.
+    the estimated relational efficiency of the panels including shading from trees. It might have been nice
+    to also have a more unshaded information.
     </li>
-  <li>There were a few incorrect measurements for panel location on the roof.
-    I sent in some drawings, so I am not sure why the measurements were wrong. In any case,
+  <li>There were a few incorrect measurements for panel location on the roof. This mistake was not on
+    the Bright Harvest drawings.
+    I also sent in some drawings, so I am not sure why the measurements were wrong. In any case,
     it helped to know the fire code walkway information so that I could install the panels correctly.</li>
   <li>They also shipped fewer footer connectors than were shown on the plans. I checked the manufacturing
     information about the racks to check what the longest span can be without footer connectors,
     and verified that I did not need as many as were shown on the diagrams.<li>
-  <li>There were three holes for conduit in the roof when only two were necessary. I called Wholesale
-    Solar and they verified that only two were necessary.
+  <li>Even after the revised plans, there were three holes for conduit in the roof when only two
+    were necessary. I called Wholesale Solar and they verified that only two were necessary.
     </li>
   </ul>
 
