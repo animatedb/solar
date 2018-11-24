@@ -138,7 +138,7 @@ Notes about the system size:
 	a bit off since my actual electrical cost for the full year was 217$.</li>
   </ul>
 
-<h3>Selecting a system</h3>
+<h3>Selecting a Grid-Tied System</h3>
 There is one more important part of selecting a system. There are a few types of grid tied systems.
 <table>
   <tr><th>System Type</th><th>Description</th</tr>
