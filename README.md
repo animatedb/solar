@@ -131,5 +131,8 @@ Notes about the system size:
   <li>PTC=266.3 * 95% inverter = 252.98 * 12 panels = 3.035 CEC-AC</li>
   <li>3.035 CEC-AC * 5.84 peak sun hours = 17.7kWh/day = 17.7 * 31 days = 548.7 kWh</li>
   <li>These numbers are a bit off from their web site numbers, so perhaps they added in roof pitch or something.</li>
+  <li>The payoff numbers are a bit off from my actual use since I originally used different base use
+	  numbers due to the fact that I didn't have the complete use numbers at the time.</li>
   </ul>
   
+I ended up picking the 447 kWh system.  I will redo the calculations later since the total system cost is higher than shown here.
