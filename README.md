@@ -188,7 +188,8 @@ There were a few mistakes and adjustments made to the plans.
     </li>
   <li>There were a few incorrect measurements for panel location on the roof. This mistake was not on
     the Bright Harvest drawings.
-    I also sent in some drawings, so I am not sure why the measurements were wrong. In any case,
+    I also originally sent in some drawings with correct measurements, so I am not sure why their
+    measurements were wrong. In any case,
     it helped to know the fire code walkway information so that I could install the panels correctly.</li>
   <li>They also shipped fewer footer connectors than were shown on the plans. I checked the manufacturing
     information about the racks to check what the longest span can be without footer connectors,
