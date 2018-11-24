@@ -152,5 +152,6 @@ There is one more important part of selecting a system. There are a few types of
 	  expensive than a single large inverter.</td</tr>
   <tr><td>With Storage</td><td>I don't think this system was available at the time that I purchased a system.</td</tr>
   </table>
+<p/>
 I ended up picking the 447 kWh system with power optimizers.  The panels are rated at 80% output at 25 years. I will redo the system payoff calculations later since the total system cost is higher than shown here.
 <!-- 7500$ system cost / 471$ actual gas+electric cost per year(2017)=15.9 years, must also add in grid connect cost -->
