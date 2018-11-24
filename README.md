@@ -192,7 +192,7 @@ There were a few mistakes and adjustments made to the plans.
     it helped to know the fire code walkway information so that I could install the panels correctly.</li>
   <li>They also shipped fewer footer connectors than were shown on the plans. I checked the manufacturing
     information about the racks to check what the longest span can be without footer connectors,
-    and verified that I did not need as many as were shown on the diagrams.<li>
+    and verified that I did not need as many as were shown on the diagrams.</li>
   <li>Even after the revised plans, there were three holes for conduit in the roof when only two
     were necessary. I called Wholesale Solar and they verified that only two were necessary.
     </li>
