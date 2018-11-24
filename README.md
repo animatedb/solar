@@ -162,5 +162,39 @@ With this system, we plan to use a very small amount of electricity in the summe
 We will generate excess electricity in the summer that goes back to the grid, then use a lot in the winter for heating. So the excess in the summer goes towards other people's AC units, which can still reduce the amount of utility plant generation even if we aren't using it.
 	  
 <h2>Planning the System</h2>
-<H2>Installing the System</h2>
+I originally started making the plans on my own. In my case the city controls solar permits and the city requires the following:
+<ul>
+  <li>A drawing of the plot of land and house showing the solar panels</li>
+  <li>Electrical diagrams and codes that show the solar system from the main junction box to the panels</li>
+  <li>How the system attaches to the rafters</li>
+  <li>The manufacture information about all of the solar hardware including racks, footings, inverter, panel, grounding parts, etc.</li>
+  </ul>
+I was able to download the fire marshal codes from the state. This gave useful information about leaving space (18" or 36") for walkway areas on the roof for firefighters. I also already had house diagrams from a previous remodel of the house. The main problem is that I had very little knowledge of the electrical and codes.
+<p/>
+For this reason, I decided to purchase plans from Wholesale Solar. The plans cost about 1000$. They allowed a deal where I could pay 15% + the plan cost, and then pay the total solar system cost later after plans were completed and passes local permitting rules through city.
+<p/>
+There were a few mistakes and adjustments made to the plans.
+<ul>
+  <li>I was originally thinking I would put panels only on the southwest roof. Their plans shows panels on the
+    southwest, southeast, and northeast. They put some on the northeast because they assumed we had a tree that
+    would block a lot of solar. I told them we were going to trim the tree since much of it was dead. They
+    changed the plans according to my request. The fact that they had solar on the southeast was better than
+    my plans, so I am glad that they calculated better than I did. They subcontracted out the calculations to
+    <a href="https://www.brightharvestsolar.com/">https://www.brightharvestsolar.com/</a>
+    </li>
+  <li>There were a few incorrect measurements for panel location on the roof.
+    I sent in some drawings, so I am not sure why the measurements were wrong. In any case,
+    it helped to know the fire code walkway information so that I could install the panels correctly.</li>
+  <li>They also shipped fewer footer connectors than were shown on the plans. I checked the manufacturing
+    information about the racks to check what the longest span can be without footer connectors,
+    and verified that I did not need as many as were shown on the diagrams.<li>
+  <li>There were three holes for conduit in the roof when only two were necessary. I called Wholesale
+    Solar and they verified that only two were necessary.
+    </li>
+  </ul>
 
+<H2>Installing the System</h2>
+<!--
+system is well engineered
+conduit must be at least 1? foot below roof
+-->
