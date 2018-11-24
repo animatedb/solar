@@ -171,7 +171,7 @@ I originally started making the plans on my own. In my case the city controls so
   </ul>
 I was able to download the fire marshal codes from the state. This gave useful information about leaving space (18" or 36") for walkway areas on the roof for firefighters. I also already had house diagrams from a previous remodel of the house. The main problem is that I had very little knowledge of the electrical and codes.
 <p/>
-For this reason, I decided to purchase plans from Wholesale Solar. The plans cost about 1000$. They allowed a deal where I could pay 15% + the plan cost, and then pay the total solar system cost later after plans were completed and passes local permitting rules through city.
+For this reason, I decided to purchase plans from Wholesale Solar. The plans cost about 1000$. They allowed a deal where I could pay 15% plus the plan cost, and then pay the total solar system cost later after plans were completed and passes local permitting rules through city.
 <p/>
 There were a few mistakes and adjustments made to the plans.
 <ul>
