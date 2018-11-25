@@ -212,13 +212,19 @@ The IronRidge racking system gives two dimensions of adjustment, so it was not t
 I debated whether to mount the conduit closer to the solar panels. It might look strange, but the hole in the roof for the conduit is in the location in the picture because that is where the garage wall is. I could have gone through the garage wall, but it would have been much more difficult because the attic is tricky with beams and the sloped ceiling. The conduit is run with a hair over the 3 feet maximum distance without support, but the inspector didn't say anything.
 <img src="images/roof-sw-conduit1.jpg">
 The following links show quite a bit of the rack information.
+<ul>
+	<li>
 <a href="https://www.quickmountpv.com/support/videos/conduit-penetration-install.html">
 https://www.quickmountpv.com/support/videos/conduit-penetration-install.html</a>
+	</li><li>
 <a href="https://www.youtube.com/watch?v=5a2mc-LrQlY">https://www.youtube.com/watch?v=5a2mc-LrQlY</a>
+	</li><li>
 <a href="https://www.wholesalesolar.com/6913221/ironridge/racking/ironridge-xr100-option-d-racks-per-65-x-39-module-inc-grounding#downloads">https://www.wholesalesolar.com/6913221/ironridge/racking/ironridge-xr100-option-d-racks-per-65-x-39-module-inc-grounding#downloads</a>
+	</li><li>
 <a href="https://www.youtube.com/watch?time_continue=57&v=hkT2fVZ9C5g">https://www.youtube.com/watch?time_continue=57&v=hkT2fVZ9C5g</a>
+	</li><li>
 <a href="se_power_optimizers_installation_guide.pdf">se_power_optimizers_installation_guide.pdf</a>
-
+	</li></ul>
 <img src="images/roof-sw-conduit2.jpg">
 The racking system provided with the solar kit doesn't have anything that mechanically connects the electrical junction box to the rack system. I used a small piece of aluminum angle bar about twice the length of the junction box. There are holes in the bottom of the junction box and I drilled holes in the angle bar to match so that the box stays pretty waterproof. Then drilled holes in the angle bar and in the rack so that they could be connected. In the picture below, you can barely see the end of the angle bar.
 <img src="images/roof-sw-box1.jpg">
