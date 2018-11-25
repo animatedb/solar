@@ -212,9 +212,9 @@ The IronRidge racking system gives two dimensions of adjustment, so it was not t
 I debated whether to mount the conduit closer to the solar panels. It might look strange, but the hole in the roof for the conduit is in the location in the picture because that is where the garage wall is. I could have gone through the garage wall, but it would have been much more difficult because the attic is tricky with beams and the sloped ceiling. The conduit is run with a hair over the 3 feet maximum distance without support, but the inspector didn't say anything.
 <img src="images/roof-sw-conduit1.jpg">
 <img src="images/roof-sw-conduit2.jpg">
-The racking system provided with the solar kit doesn't have anything that mechanically connects the electrical junction box to the rack system. I used a small piece of aluminum angle bar about twice the length of the junction box. There are holes in the bottom of the junction box and I drilled holes in the angle bar to match so that the box stays pretty waterproof. Then drilled holes in the angle bar and in the rack so that they could be connected. In this picture, you can barely see the end of the angle bar.
+The racking system provided with the solar kit doesn't have anything that mechanically connects the electrical junction box to the rack system. I used a small piece of aluminum angle bar about twice the length of the junction box. There are holes in the bottom of the junction box and I drilled holes in the angle bar to match so that the box stays pretty waterproof. Then drilled holes in the angle bar and in the rack so that they could be connected. In the picture below, you can barely see the end of the angle bar.
 <img src="images/roof-sw-box1.jpg">
-This picture of the junction box shows the electrical connections to the solar panel side. 
+The picture of the junction box below shows the electrical connections to the solar panel side. 
 This picture also shows the angle bar with two bolts to connect to the rack.
 I bought a special connector that was not supplied in the solar kit. This connector is not in most
 hardware stores, and I had to purchase online.  Wholesale solar sent me information from this web site.
@@ -225,7 +225,7 @@ I think the connector I purchased was something like this.
 https://www.amazon.com/Liquid-Tight-Strain-Relief-Cord/dp/B071S7G2K6/ref=sr_1_7?ie=UTF8&qid=1543171969&sr=8-7&keywords=heyco+cord+grip</a>
 <p/>
 <img src="images/roof-sw-box2.jpg">
-In this picture you can see the bolts holding the panels to the racks. The optimizers are under the panels. It is pretty important to use a voltmeter as you go so that you can measure whether the connections are correct between the panels and optimizers. I found a couple of mistakes as I was going along. You are also supposed to cover the panels when connecting the optimizers. I used a piece of cardboard that the panels were shipped with.
+In the picture below you can see the bolts holding the panels to the racks. The optimizers are under the panels. It is pretty important to use a voltmeter as you go so that you can measure whether the connections are correct between the panels and optimizers. I found a couple of mistakes as I was going along. You are also supposed to cover the panels when connecting the optimizers. I used a piece of cardboard that the panels were shipped with.
 <p/>
 This is a one story house, so I was able to carry the panels onto the roof by myself and completed the entire installation without needing anybody else. I put an old rug on the edge of the roof so that I could push the panels onto the roof from below by sliding the panels onto the rug. This worked really well. It was a bit difficult to install the panels onto the racks by myself, and probably would recommend against doing this especially if there is not much room below the panels on the roof.
 <img src="images/roof-sw-overall.jpg">
