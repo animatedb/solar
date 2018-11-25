@@ -219,9 +219,9 @@ This picture also shows the angle bar with two bolts to connect to the rack.
 I bought a special connector that was not supplied in the solar kit. This connector is not in most
 hardware stores, and I had to purchase online.  Wholesale solar sent me information from this web site.
 <a href="https://www.heyco.com/Liquid_Tight_Cordgrips/">https://www.heyco.com/Liquid_Tight_Cordgrips</a>
+<p/>
 I think the connector I purchased was something like this.
 <a href="https://www.amazon.com/Liquid-Tight-Strain-Relief-Cord/dp/B071S7G2K6/ref=sr_1_7?ie=UTF8&qid=1543171969&sr=8-7&keywords=heyco+cord+grip">
-<p/>
 https://www.amazon.com/Liquid-Tight-Strain-Relief-Cord/dp/B071S7G2K6/ref=sr_1_7?ie=UTF8&qid=1543171969&sr=8-7&keywords=heyco+cord+grip</a>
 <img src="images/roof-sw-box2.jpg">
 
