@@ -226,6 +226,8 @@ https://www.quickmountpv.com/support/videos/conduit-penetration-install.html</a>
 <a href="se_power_optimizers_installation_guide.pdf">se_power_optimizers_installation_guide.pdf</a>
 	</li></ul>
 <img src="images/roof-sw-conduit2.jpg">
+I like to use this sealant to mount roof flashing. It dries and stays malleable. I make an upside down V with the sealant so that the water can go around the hole in the roof as it runs down the slope of the roof.
+<img src="images/sealant.jpg">
 The racking system provided with the solar kit doesn't have anything that mechanically connects the electrical junction box to the rack system. I used a small piece of aluminum angle bar about twice the length of the junction box. There are holes in the bottom of the junction box and I drilled holes in the angle bar to match so that the box stays pretty waterproof. Then drilled holes in the angle bar and in the rack so that they could be connected. In the picture below, you can barely see the end of the angle bar.
 <img src="images/roof-sw-box1.jpg">
 The picture of the junction box below shows the electrical connections to the solar panel side. 
