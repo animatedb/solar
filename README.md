@@ -210,8 +210,12 @@ I started by installing the racks on the roof. It was fairly difficult to find t
 The IronRidge racking system gives two dimensions of adjustment, so it was not that critical where the feet are mounted. Overall the mounting system seems to work very well. The bolts have a system so that they connect to the rack slots when the bolts are rotated. There is no need for finding holes, or sliding parts in slots.
 <p/>
 I debated whether to mount the conduit closer to the solar panels. It might look strange, but the hole in the roof for the conduit is in the location in the picture because that is where the garage wall is. I could have gone through the garage wall, but it would have been much more difficult because the attic is tricky with beams and the sloped ceiling. The conduit is run with a hair over the 3 feet maximum distance without support, but the inspector didn't say anything.
-<img src="images/roof-sw-conduit1.jpeg">
-<img src="images/roof-sw-conduit2.jpeg">
+<img src="images/roof-sw-conduit1.jpg">
+<img src="images/roof-sw-conduit2.jpg">
+The racking system provided with the solar kit doesn't have anything that mechanically connects the electrical junction box to the rack system. I used a small piece of aluminum angle bar about twice the length of the junction box. There are holes in the bottom of the junction box and I drilled holes in the angle bar to match so that the box stays pretty waterproof. Then drilled holes in the angle bar and in the rack so that they could be connected.
+<img src="images/roof-sw-box1.jpg">
+The other picture of the junction box shows the electrical connections to the solar panel side. I bought a special connector that was not supplied in the solar kit. This connector is not in most hardware stores, and I had to purchase online.
+<img src="images/roof-sw-box2.jpg">
 
 
 <h3>Southeast Roof</h3>
