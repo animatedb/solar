@@ -204,7 +204,20 @@ Wholesale Solar photographs the shipment before sending it. The system comes on 
 <img src="images/UNADJUSTEDNONRAW_thumb_23f4e-mod.jpeg">
 
 <H2>Installing the System</h2>
+<h3>Southwest Roof</h3>
+I started by installing the racks on the roof. It was fairly difficult to find the rafters since the ceiling is sloped, so there is no attic. It was possible to find nails for the ceiling, and one part of the roof did have an attic. I used a long 1/8" drill bit to drill initial rafter holes, and I did have to drill a couple of nail holes where I didn't hit rafters (one into the ceiling and one into the attic), but was able to find the rafters with the long bit.
+<p/>
+The IronRidge racking system gives two dimensions of adjustment, so it was not that critical where the feet are mounted. Overall the mounting system seems to work very well. The bolts have a system so that they connect to the rack slots when the bolts are rotated. There is no need for finding holes, or sliding parts in slots.
+<p/>
+I debated whether to mount the conduit closer to the solar panels. It might look strange, but the hole in the roof for the conduit is in the location in the picture because that is where the garage wall is. I could have gone through the garage wall, but it would have been much more difficult because the attic is tricky with beams and the sloped ceiling. The conduit is run with a hair over the 3 feet maximum distance without support, but the inspector didn't say anything.
+<img src="images/roof-sw-conduit1.jpeg">
+<img src="images/roof-sw-conduit2.jpeg">
+
+
+<h3>Southeast Roof</h3>
+
 <!--
 system is well engineered
 conduit must be at least 1? foot below roof
 -->
+<h3>Electrical</h3>
