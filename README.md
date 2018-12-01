@@ -204,7 +204,7 @@ Wholesale Solar photographs the shipment before sending it. The system comes on 
 <img src="images/UNADJUSTEDNONRAW_thumb_23f4e-mod.jpeg">
 
 <H2>Installing the System</h2>
-These pictures are generally in the order that I installed the system.  I started from the roof mounting the panels and determining where the holes in the roof would be. Then I mounted the inverter taking into consideration the mounting of the AC disconnect box. Then connected the conduit and electrical between all of the pieces. I did not use conduit in the garage wall, and I left the sheetrock off the garage wall for the inspection.
+These pictures are generally in the order that I installed the system.  I started from the roof mounting the panels and determining where the penetration holes in the roof would be. Remember that these must be adjacent to a rafter. Then I mounted the inverter taking into consideration the mounting of the AC disconnect box. Then connected the conduit and electrical between all of the pieces. I did not use conduit in the garage wall, and I left the sheetrock off the garage wall for the inspection.
 <h3>Southwest Roof</h3>
 I started by installing the racks on the roof. It was fairly difficult to find the rafters since the ceiling is sloped, so there is no attic. It was possible to find nails for the ceiling, and one part of the roof did have an attic. I used a long 1/8" drill bit to drill initial rafter holes, and I did have to drill a couple of nail holes where I didn't hit rafters (one into the ceiling and one into the attic), but was able to find the rafters with the long bit. I built a big square out of a couple of pieces of wood and marked where I wanted the feet compared to the roof ridge. Then I could use the square to quickly find the locations of both feet for a rafter. It seemed to work pretty well.
 <p/>
@@ -233,8 +233,7 @@ I like to use this sealant to mount roof flashing. It dries and stays malleable.
 <img src="images/sealant.jpg">
 The racking system provided with the solar kit doesn't have anything that mechanically connects the electrical junction box to the rack system. I used a small piece of aluminum angle bar about twice the length of the junction box. There are holes in the bottom of the junction box and I drilled holes in the angle bar to match so that the box stays pretty waterproof. Then drilled holes in the angle bar and in the rack so that they could be connected. In the picture below, you can barely see the end of the angle bar.
 <img src="images/roof-sw-box1.jpg">
-The picture of the junction box below shows the electrical connections to the solar panel side. 
-This picture also shows the angle bar with two bolts to connect to the rack.
+The picture of the junction box below shows the electrical connections to the solar panel side. The junction box must be waterproof. This picture also shows the angle bar with two bolts to connect to the rack.
 I bought a special connector that was not supplied in the solar kit. This connector is not in most
 hardware stores, and I had to purchase online.  Wholesale solar sent me information from this web site.
 <a href="https://www.heyco.com/Liquid_Tight_Cordgrips/">https://www.heyco.com/Liquid_Tight_Cordgrips</a>
@@ -269,6 +268,8 @@ conduit must be at least 10" below roof, support within 3' of a box, 10' for run
 -->
 <h3>Electrical</h3>
 This shows the conduit from the southwest panels. That is one poor quality bend, but nobody will see it after dark and it works.
+Conduit must be supported within 3' of a junction box, and 10' on runs.
+<p/>
 The stickers on the box and later on the conduit all came from the solar kit. I laid all stickers out on a large flat space so that I could figure out all sticker locations before mounting them. When the inspector came, he asked where a sticker was on some conduit, and I pointed a bit down the line. I said that that was all the stickers in the kit, and he was ok with it.
 <img src="images/conduit-interior5.jpg">
 <img src="images/conduit-interior4.jpg">
@@ -280,7 +281,7 @@ This shows the conduit going up to the southwest panels. The roof looks strange 
 <img src="images/conduit-interior1.jpg">
 Finally the conduit down to the inverter. Note that all of the conduit so far has been for the DC electrical to the inverter. The DC wiring was supplied in the kit.
 <img src="images/inverter1.jpg">
-This shows the back of the inverter where the AC is going towards the AC disconnect switch. This is a very short piece (couple inches) of conduit that just goes into the wall. Then the AC electrical goes to the AC switch.
+This shows the back of the inverter where the AC is going towards the AC disconnect switch. This is a very short piece (couple inches) of conduit that just goes into the wall. Then the AC electrical (line side) goes from the main meter box to the AC switch.
 <img src="images/inverter2.jpg">
 The AC disconnect to the solar must be on the outside of the house. I had to move the cable box and I basically moved it without changing the wires much.  I had some difficulty finding two breakers that are required for this system. There was one that was empty, and eventually I discovered another that we were not using. At first I was thinking that two were not available, which would have required running a subpanel.
 <img src="images/main-panel.jpg">
