@@ -2,7 +2,7 @@
 Hopefully helpful information about installing solar for a residence
 
 <h2>Introduction</h2>
-First a couple of graphs to as an introduction, then later get into the details. A 3.24 kW grid-tied system with 12 panels was installed on August of 2018. This first graph shows the amount of electricity generated, and the amount used. The usage is with no electric car and pretty minimal use of other electricity, but some electrical use for heating in the winter. This means that so far, we have not used natural gas for heating.
+First a couple of graphs as an introduction, then later get into the details. A 3.24 kW grid-tied system with 12 panels was installed on August of 2018. This first graph shows the amount of electricity generated, and the amount used. The usage is with no electric car and pretty minimal use of other electricity, but some electrical use for heating in the winter. This means that so far, we have not used natural gas for heating.
 
 <img src="generation/gen-use-2018-11.png">
 This graph shows the amount of surplus electricity. My utility has an annual true-up program, which means the amount you owe or are paid is figured out once per year. The goal generally is to generate the same amount of electricity over the year as you use.
@@ -14,7 +14,7 @@ I wanted to be green, so I didn't mind paying a bit more for a system that is cu
 
 <h3>Figuring out Use</h3>
 <h4>Electric Use</h4>
-I figured out current use two ways. The first was to find the devices in the home that are using electricty. I used a Watt meter (Killawatt) to measure different devices and multiplied by estimated time of use. I am showing these numbers just to give an idea of what some devices can use.
+I figured out our current use two ways. The first was to find the devices in the home that are using electricty. I used a Watt meter (Killawatt) to measure different devices and multiplied by estimated time of use. I am showing these numbers just to give an idea of what some devices can use.
 
 <table>
   <tr><th>Wh/day</th><th>Device</th><th>Description</th></tr>
@@ -42,9 +42,9 @@ I figured out current use two ways. The first was to find the devices in the hom
   <tr><td>3904</td><td>Total</td><td>Wh per day</td></tr>
   </table>
 
-By doing this exercise, I was able to find a few things we weren't really using, and I was surprised at what the entertainment cost was and that the Cable Box indicated that we were saving electricity when it was off, but really wasn't. Unplugging is more important than expected.
+By doing this exercise, I was able to find a few things we weren't really using, and I was surprised at what the entertainment cost was and that the Cable Box indicated that we were saving electricity when it was off, but really wasn't. Unplugging is more important than expected in some cases.
 <p/>
-I also looked at a cable bill and found that our actual use for one month was 186 kWh, which means that our actual use is about 186kWh/month / 31 days = 6kWh/d. So the measurements and calculations above are not completely accurate. We must be using things a bit more than expected.
+I also looked at utility bills and found that our actual use for one month was 186 kWh, which means that our actual use is about 186kWh/month / 31 days = 6kWh/d. So the measurements and calculations above are not completely accurate. We must be using things a bit more than expected.
 
 <h4>Electric and Natural Gas Use and Cost</h4>
 The following table shows actual electrical cost for one year (2017).
@@ -98,7 +98,7 @@ This site shows the roof angle information.
 <a href="https://www.civicsolar.com/support/installer/articles/calculating-your-optimal-azimuth-angle">
   https://www.civicsolar.com/support/installer/articles/calculating-your-optimal-azimuth-angle</a>
 <p/>
-For my location, it seels like the efficiency is about 1/2 the total during winter, and another 10% lower for azimuth and roof angle.
+For my location, it seels like the efficiency is about 1/2 the total during winter, and another 10% lower for azimuth and roof angle. Actual measurements so far seems like it is about 1/3 the total during winter.
 <h3>Solar System Size</h3>
 <table>
   <tr><th>kWh</th><th>System</th><th>Calculation</th></tr>
@@ -206,11 +206,11 @@ Wholesale Solar photographs the shipment before sending it. The system comes on 
 <H2>Installing the System</h2>
 These pictures are generally in the order that I installed the system.  I started from the roof mounting the panels and determining where the penetration holes in the roof would be. Remember that these must be adjacent to a rafter. Then I mounted the inverter taking into consideration the mounting of the AC disconnect box. Then connected the conduit and electrical between all of the pieces. I did not use conduit in the garage wall, and I left the sheetrock off the garage wall for the inspection.
 <h3>Southwest Roof</h3>
-I started by installing the racks on the roof. It was fairly difficult to find the rafters since the ceiling is sloped, so there is no attic. It was possible to find nails for the ceiling, and one part of the roof did have an attic. I used a long 1/8" drill bit to drill initial rafter holes, and I did have to drill a couple of nail holes where I didn't hit rafters (one into the ceiling and one into the attic), but was able to find the rafters with the long bit. I built a big square out of a couple of pieces of wood and marked where I wanted the feet compared to the roof ridge. Then I could use the square to quickly find the locations of both feet for a rafter. It seemed to work pretty well.
+I started by installing the racks on the roof. It was fairly difficult to find the rafters since the ceiling is sloped, so there is no attic. It was possible to find nails for the ceiling, and one part of the roof did have an attic. I used a long (12") 1/8" drill bit to drill initial rafter holes, and I did have to drill a couple of nail holes where I didn't hit rafters (one into the ceiling and one into the attic), but was able to find the rafters with the long bit. I built a big square out of a couple of pieces of wood and marked where I wanted the feet compared to the roof ridge. Then I could use the square to quickly find the locations of both feet for a rafter. It seemed to work pretty well.
 <p/>
 The IronRidge racking system gives two dimensions of adjustment, so it was not that critical where the feet are mounted. Overall the mounting system seems to work very well. The racks are aluminum and serve as a ground from the panels. Then a ground wire must be run all the way to the inverter. The bolts have a system so that they connect to the rack slots when the bolts are rotated. There is no need for finding holes, or sliding parts from the ends of the slots.
 <p/>
-I debated whether to mount the conduit closer to the solar panels. It might look strange, but the hole in the roof for the conduit is in the location in the picture because that is where the garage wall is. I could have gone through the garage wall, but it would have been much more difficult because the attic is tricky with beams and the sloped ceiling. The conduit is run with a hair over the 3 feet maximum distance without support, but the inspector didn't say anything.
+I debated whether to mount the conduit penetration point through the roof closer to the solar panels. It might look strange, but the hole in the roof for the conduit is in the location in the picture because that is where the garage wall is. I could have gone through the garage wall, but it would have been much more difficult because the attic is tricky with beams and the sloped ceiling. The conduit is run with a hair over the 3 feet maximum distance without support, but the inspector didn't say anything.
 <img src="images/roof-sw-conduit1.jpg">
 One thing to remember to do is to record the serial numbers of each power optimizer. This may be useful in the future to determine where a poorly performing panel is. The inverter company does not make the information available easily, but there may be software available on the net that allows doing some of this.
 <p/>
@@ -243,7 +243,7 @@ I think the connector I purchased was something like this.
 https://www.amazon.com/Liquid-Tight-Strain-Relief-Cord/dp/B071S7G2K6/ref=sr_1_7?ie=UTF8&qid=1543171969&sr=8-7&keywords=heyco+cord+grip</a>
 <p/>
 <img src="images/roof-sw-box2.jpg">
-I kept some slack wire under the panels in the case that things have to be adjusted, or perhaps for adding more panels in the future.
+I kept some slack wire under the panels in the case that things have to be adjusted, or perhaps for adding more panels in the future. The wiring must be kept off of the roof so that the wind doesn't cause rubbing between the shingles and cable jacket. I used the cable mounts that come with the kit, and also separately purchased some cable ties, which made it quite a bit easier.
 <p/>
 In the picture below you can see the bolts holding the panels to the racks. The optimizers are under the panels. It is pretty important to use a voltmeter as you go so that you can measure whether the connections are correct between the panels and optimizers. I found a couple of mistakes as I was going along. You are also supposed to cover the panels when connecting the optimizers. I used a piece of cardboard that the panels were shipped with.
 <p/>
@@ -278,10 +278,13 @@ The conduit must be 10" below the roof because the firefighters may use a saw to
 <img src="images/conduit-interior3.jpg">
 This shows the conduit going up to the southwest panels. The roof looks strange here because this is an add-on to the house, and this old part of the roof is now under the new roof.
 <img src="images/conduit-interior2.jpg">
+I put some extra vents in the garage. One is above the inverter in an attempt to keep some more air flow around the inverter in order to keep it cooler for longer life.
 <img src="images/conduit-interior1.jpg">
 Finally the conduit down to the inverter. Note that all of the conduit so far has been for the DC electrical to the inverter. The DC wiring was supplied in the kit.
+<p/>
+The network wire is connected to the inverter, but I have not set up software for it yet.
 <img src="images/inverter1.jpg">
-This shows the back of the inverter where the AC is going towards the AC disconnect switch. This is a very short piece (couple inches) of conduit that just goes into the wall. Then the AC electrical (line side) goes from the main meter box to the AC switch.
+This shows the back of the inverter where the AC is going towards the AC disconnect switch. There are many punch out holes in the inverter, so there could be other locations for the AC. This is a very short piece (couple inches) of conduit that just goes into the wall. Then the AC electrical (line side) goes from the main meter box to the AC switch.
 <img src="images/inverter2.jpg">
 The AC disconnect to the solar must be on the outside of the house. I had to move the cable box and I basically moved it without changing the wires much.  I had some difficulty finding two breakers that are required for this system. There was one that was empty, and eventually I discovered another that we were not using. At first I was thinking that two were not available, which would have required running a subpanel.
 <img src="images/main-panel.jpg">
@@ -289,3 +292,7 @@ The AC disconnect to the solar must be on the outside of the house. I had to mov
 <h3>Summary</h3>
 The following shows some rough parts and cost
 <a href="PartsCost.md">Parts Cost</a>.
+<p/>
+If you have any questions or comments, please let me know.
+<p/>
+A good summary may take some time because the system has been used such a short amount of time. Wait till next time.
