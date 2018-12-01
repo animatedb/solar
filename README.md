@@ -276,3 +276,7 @@ The conduit must be 10" below the roof because the firefighters may use a saw to
 This shows the conduit going up to the southwest panels. The roof looks strange here because this is an add-on to the house, and this old part of the roof is now under the new roof.
 <img src="images/conduit-interior2.jpg">
 <img src="images/conduit-interior1.jpg">
+Finally the conduit down to the inverter. Note that all of the conduit so far has been for the DC electrical to the inverter. The DC wiring was supplied in the kit.
+<img src="images/inverter1.jpg">
+This shows the back of the inverter where the AC is going towards the AC disconnect switch. This is a very short piece (couple inches) of conduit that just goes into the wall. Then the AC electrical goes to the AC switch.
+<img src="images/inverter2.jpg">
