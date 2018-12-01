@@ -212,6 +212,8 @@ The IronRidge racking system gives two dimensions of adjustment, so it was not t
 <p/>
 I debated whether to mount the conduit closer to the solar panels. It might look strange, but the hole in the roof for the conduit is in the location in the picture because that is where the garage wall is. I could have gone through the garage wall, but it would have been much more difficult because the attic is tricky with beams and the sloped ceiling. The conduit is run with a hair over the 3 feet maximum distance without support, but the inspector didn't say anything.
 <img src="images/roof-sw-conduit1.jpg">
+One thing to remember to do is to record the serial numbers of each power optimizer. This may be useful in the future to determine where a poorly performing panel is. The inverter company does not make the information available easily, but there may be software available on the net that allows doing some of this.
+<p/>
 The following links show quite a bit of the rack information.
 <ul>
 	<li>
@@ -282,3 +284,7 @@ This shows the back of the inverter where the AC is going towards the AC disconn
 <img src="images/inverter2.jpg">
 The AC disconnect to the solar must be on the outside of the house. I had to move the cable box and I basically moved it without changing the wires much.  I had some difficulty finding two breakers that are required for this system. There was one that was empty, and eventually I discovered another that we were not using. At first I was thinking that two were not available, which would have required running a subpanel.
 <img src="images/main-panel.jpg">
+
+<h3>Summary</h3>
+The following shows some rough parts and cost.
+<a href="PartsCost.html">PartsCost.html</a>
