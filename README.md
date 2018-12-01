@@ -138,6 +138,17 @@ Notes about the system size:
 	a bit off since my actual electrical cost for the full year was 217$.</li>
   </ul>
 
+<h3>Solar Tax Credit</h3>
+There is a federal solar tax credit that was extended in 2016. It covers a percentage of the cost of the system.
+<table>
+	<tr><th>Year</th><th>Percent</th></tr>
+	<tr><td>2018</td><td>30</td></tr>
+	<tr><td>2019</td><td>30</td></tr>
+	<tr><td>2020</td><td>26</td></tr>
+	<tr><td>2021</td><td>22</td></tr>
+	<tr><td>2022</td><td>10</td></tr>
+</table>
+
 <h3>Selecting a Grid-Tied System</h3>
 There is one more important part of selecting a system. There are a few types of grid tied systems.
 <table>
