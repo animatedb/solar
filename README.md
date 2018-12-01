@@ -251,6 +251,15 @@ This is a one story house, so I was able to carry the panels onto the roof by my
 
 <h3>Southeast Roof</h3>
 
+This was my first time bending conduit, and it kind of fun. This box is mounted the opposite direction from the
+southwest panels because of where the conduit enters.
+<img src="images/roof-se-conduit.jpg">
+On this box, the end of the angle bracket is easier to see. The cord grip is also visible.
+<img src="images/roof-se-box.jpg">
+I was wondering if there were any rules on how close panels can be to electrical, but the inspector didn't say anything.
+<img src="images/roof-se-elec.jpg">
+This shows all panels on the southeast side.
+<img src="images/roof-se-overall.jpg">
 <!--
 system is well engineered
 conduit must be at least 10" below roof, support within 3' of a box, 10' for runs.
