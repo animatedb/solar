@@ -280,3 +280,5 @@ Finally the conduit down to the inverter. Note that all of the conduit so far ha
 <img src="images/inverter1.jpg">
 This shows the back of the inverter where the AC is going towards the AC disconnect switch. This is a very short piece (couple inches) of conduit that just goes into the wall. Then the AC electrical goes to the AC switch.
 <img src="images/inverter2.jpg">
+The AC disconnect to the solar must be on the outside of the house. I had to move the cable box and I basically moved it without changing the wires much.  I had some difficulty finding two breakers that are required for this system. There was one that was empty, and eventually I discovered another that we were not using. At first I was thinking that two were not available, which would have required running a subpanel.
+<img src="images/main-panel.jpg">
