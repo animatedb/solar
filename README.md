@@ -287,4 +287,4 @@ The AC disconnect to the solar must be on the outside of the house. I had to mov
 
 <h3>Summary</h3>
 The following shows some rough parts and cost
-<a href="PartsCost.md">PartsCost</a>.
+<a href="PartsCost.md">Parts Cost</a>.
