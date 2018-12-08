@@ -47,7 +47,7 @@ By doing this exercise, I was able to find a few things we weren't really using,
 I also looked at utility bills and found that our actual use for one month was 186 kWh, which means that our actual use is about 186kWh/month / 31 days = 6kWh/d. So the measurements and calculations above are not completely accurate. We must be using things a bit more than expected.
 
 <h4>Electric and Natural Gas Use and Cost</h4>
-<img src="images/YearCost.png">
+<img src="generation/YearCost.png">
 
 The following table shows actual electrical cost for one year (2017).
 <table>
