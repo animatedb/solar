@@ -47,19 +47,21 @@ By doing this exercise, I was able to find a few things we weren't really using,
 I also looked at utility bills and found that our actual use for one month was 186 kWh, which means that our actual use is about 186kWh/month / 31 days = 6kWh/d. So the measurements and calculations above are not completely accurate. We must be using things a bit more than expected.
 
 <h4>Electric and Natural Gas Use and Cost</h4>
+<img src="images/YearCost.png">
+
 The following table shows actual electrical cost for one year (2017).
 <table>
   <tr><th>Quantity</th><th>Calculation</th><th>Description</th></tr>
-  <tr><td>190 kWh per Month</td><td>159+148+128+145+142+199+197+136+134+209+242+180+217/12=186</td><td>Total Electrical</td></tr>
-  <tr><td>22$ per Month</td><td>31+30+17+19+19+27+26+18+18+28+32=265$/12</td><td>Total Cost</td></tr>
+  <tr><td>180 kWh per Month</td><td>145+142+199+197+136+134+209+242+180+217+186+172=2159/12=180</td><td>Total Electrical</td></tr>
+  <tr><td>25$ per Month</td><td>20+19+27+27+18+18+28+33+25+30+27+25=296/12=24.72</td><td>Total Cost</td></tr>
   </table>
 The following shows gas cost for one year (2017).
 <table>
   <tr><th>Quantity</th><th>Calculation</th><th>Description</th></tr>
-  <tr><td>190 Therms/Year</td><td>27+17+5+4+5+4+4+4+8+28+34+19+31</td><td>Total Heating and Water Heater</td></tr>
-  <tr><td>22.6$/Month</td><td>39+24+7+7.1+5.7+6.8+5.4+5.2+5.2+10.8+38+48+27+43=272$/12</td><td>Total Cost</td></tr>
+  <tr><td>156 Therms/Year</td><td>4+5+4+4+4+8+28+34+19+31+10+5=156/12=13</td><td>Total Heating and Water Heater</td></tr>
+  <tr><td>18.16$/Month</td><td>6+7+5+5+5+11+39+48+27+44+14+7=217.93/12=18.16</td><td>Total Cost</td></tr>
   <tr><td>142 Therms/Year</td><td>190-(48 water heater)</td><td>Heating Only</td></tr>
-  <tr><td>17$/Month</td><td>272$ - (5.5*12=66:water heater) = 206$ / 12 = 17$</td><td>Heating Only Cost</td></tr>
+  <tr><td>14$/Month</td><td>217$ - (4*12=48:water heater) = 169$ / 12 = 14$</td><td>Heating Only Cost</td></tr>
   <tr><td>48 Therms/Year</td><td>12*4=48</td><td>Water Heater</td></tr>
   </table>
 
