@@ -60,7 +60,7 @@ The following shows gas cost for one year (2017).
   <tr><th>Quantity</th><th>Calculation</th><th>Description</th></tr>
   <tr><td>156 Therms/Year</td><td>4+5+4+4+4+8+28+34+19+31+10+5=156/12=13</td><td>Total Heating and Water Heater</td></tr>
   <tr><td>18.16$/Month</td><td>6+7+5+5+5+11+39+48+27+44+14+7=217.93/12=18.16</td><td>Total Cost</td></tr>
-  <tr><td>142 Therms/Year</td><td>190-(48 water heater)</td><td>Heating Only</td></tr>
+  <tr><td>108 Therms/Year</td><td>156-(48 water heater)</td><td>Heating Only</td></tr>
   <tr><td>14$/Month</td><td>217$ - (4*12=48:water heater) = 169$ / 12 = 14$</td><td>Heating Only Cost</td></tr>
   <tr><td>48 Therms/Year</td><td>12*4=48</td><td>Water Heater</td></tr>
   </table>
@@ -81,7 +81,7 @@ My typical driving at the moment is less than 8K miles/year = 21 miles per day. 
 So 23.7 / 100 = .237 kWh per mile * 21 miles = 4.977 or about 5 kWh per day. This means an electric car would double our electricty use.
 
 <h4>Electric Heating</h4>
-We used 142 Therms per year for gas heating. 142 therms = 4146 kWh. 4146 / 12 months = 346 kWh, or 4146 / 365 days = 11.4 kWh per day. Using electrical for all of our heating would triple our electrical use.
+We used 108 to 142 Therms per year for gas heating. 142 therms = 4146 kWh. 4146 / 12 months = 346 kWh, or 4146 / 365 days = 11.4 kWh per day. Using electrical for all of our heating could triple our electrical use.
 
 <h3>Solar Energy and Efficiency</h3>
 You can skip this section to use the online caclulator described below in Solar System Size. This section does give some information about what is important for roof angles, and your location.
