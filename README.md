@@ -14,7 +14,11 @@ I wanted to be green, so I didn't mind paying a bit more for a system that is cu
 
 <h3>Figuring out Use</h3>
 <h4>Electric Use</h4>
-I figured out our current use two ways. The first was to find the devices in the home that are using electricty. I used a Watt meter (Killawatt) to measure different devices and multiplied by estimated time of use. I am showing these numbers just to give an idea of what some devices can use.
+I figured out our current use two ways. The first was to find the devices in the home that are using electricty. The second was by using utility bills.
+<p/>
+I used a Watt meter (Killawatt) to measure different devices and multiplied by estimated time of use. I am showing these numbers just to give an idea of what some devices can use.
+
+<h4>Finding Electric Use by Device Consumption</h4>
 
 <table>
   <tr><th>Wh/day</th><th>Device</th><th>Description</th></tr>
@@ -46,7 +50,7 @@ By doing this exercise, I was able to find a few things we weren't really using,
 <p/>
 I also looked at utility bills and found that our actual use for one month was 186 kWh, which means that our actual use is about 186kWh/month / 31 days = 6kWh/d. So the measurements and calculations above are not completely accurate. We must be using things a bit more than expected.
 
-<h4>Electric and Natural Gas Use and Cost</h4>
+<h4>Finding Electric and Natural Gas Use and Cost from Utility Bills</h4>
 <img src="generation/YearCost.png">
 
 The following table shows actual electrical cost for one year (2017).
