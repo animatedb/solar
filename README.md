@@ -105,7 +105,7 @@ This site shows the roof angle information.
 <a href="https://www.civicsolar.com/support/installer/articles/calculating-your-optimal-azimuth-angle">
   https://www.civicsolar.com/support/installer/articles/calculating-your-optimal-azimuth-angle</a>
 <p>
-For my location, it seels like the efficiency is about 1/2 the total during winter, and another 10% lower for azimuth and roof angle. Actual measurements so far seems like it is about 1/3 the total during winter.
+For my location, it seels like the efficiency is about 1/2 the total during winter, and another 10% lower for azimuth and roof angle. Actual measurements so far seems like it is about 1/3 the total during winter. This also matches the nrel.gov site.
 <h3>Solar System Size</h3>
 <table>
   <tr><th>kWh</th><th>System</th><th>Calculation</th></tr>
