@@ -280,10 +280,6 @@ I was wondering if there were any rules on how close panels can be to electrical
 <img src="images/roof-se-elec.jpg">
 This shows all panels on the southeast side.
 <img src="images/roof-se-overall.jpg">
-<!--
-system is well engineered
-conduit must be at least 10" below roof, support within 3' of a box, 10' for runs.
--->
 <h3>Electrical</h3>
 This shows the conduit from the southwest panels. That is one poor quality bend, but nobody will see it after dark and it works.
 Conduit must be supported within 3' of a junction box, and 10' on runs.
