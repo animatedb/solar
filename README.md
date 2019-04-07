@@ -6,7 +6,7 @@ First a couple of graphs as an introduction, then later get into the details. A 
 
 <img src="generation/SolGenUse.svg">
 This graph shows the amount of surplus electricity. My utility has an annual true-up program, which means the amount you owe or are paid is figured out once per year. The goal generally is to generate the same amount of electricity over the year as you use.
-<img src="generation/SolBalance.png">
+<img src="generation/SolBalance.svg">
 
 <h2>Selecting a System</h2>
 <h3>Initial Goals</h3>
