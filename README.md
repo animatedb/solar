@@ -1,3 +1,22 @@
+<html>
+<head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .imgbox {
+            display: grid;
+            height: 100%;
+        }
+        .center-fit {
+            max-width: 100%;
+            max-height: 100vh;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
 # solar
 Hopefully helpful information about installing solar for a residence
 
@@ -6,6 +25,9 @@ First a couple of graphs as an introduction, then later get into the details. A 
 
 <img src="generation/SolGenUse.svg">
 This graph shows the amount of surplus electricity. My utility has an annual true-up program, which means the amount you owe or are paid is figured out once per year. The goal generally is to generate the same amount of electricity over the year as you use.
+<div class="imgbox">
+    <img class="center-fit" src='generation/SolBalance.png'>
+</div>
 <img src="generation/SolBalance.png">
 
 <h2>Selecting a System</h2>
@@ -310,3 +332,5 @@ The following shows some rough parts and cost
 If you have any questions or comments, please let me know.
 <p>
 A good summary may take some time because the system has been used such a short amount of time. Wait till next time.
+</body>
+</html>
