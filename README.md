@@ -4,7 +4,7 @@ Hopefully helpful information about installing solar for a residence
 <h2>Introduction</h2>
 First a couple of graphs as an introduction, then later get into the details. A 3.24 kW grid-tied system with 12 panels was installed on August of 2018. This first graph shows the amount of electricity generated, and the amount used. The usage is with no electric car and pretty minimal use of other electricity, but some electrical use for heating in the winter. This means that so far, we have used natural gas for heating for a couple of days.
 
-<img src="generation/SolGenUse.svg width=100">
+<img src="generation/SolGenUse.svg">
 This graph shows the amount of surplus electricity. My utility has an annual true-up program, which means the amount you owe or are paid is figured out once per year. The goal generally is to generate the same amount of electricity over the year as you use.
 <img src="generation/SolBalance.svg">
 
