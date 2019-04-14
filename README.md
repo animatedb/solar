@@ -305,7 +305,8 @@ The AC disconnect to the solar must be on the outside of the house. I had to mov
 
 <h3>Summary</h3>
 The following shows some rough parts and cost
-<a href="PartsCost.md">Parts Cost</a>. Total cost was about 7385$-2216$ federal rebate = 5169$.
+<a href="PartsCost.md">Parts Cost</a>.
+Total cost was about 7385$ - 2216$ (federal rebate) = 5169$.
 <p>
 If you have any questions or comments, please let me know.
 <p>
