@@ -53,7 +53,7 @@ I used a Watt meter (Killawatt) to measure different devices and multiplied by e
   <tr><td>3904</td><td>Total</td><td>Wh per day</td></tr>
   </table>
 
-By doing this exercise, I was able to find a few things we weren't really using, and I was surprised at what the entertainment cost was and that the Cable Box indicated that we were saving electricity when it was off, but really wasn't. Unplugging is more important than expected in some cases.
+By doing this exercise, I was able to find a few things we weren't really using, and I was surprised at what the entertainment cost was and that the Cable Box indicated that we were saving electricity when it was off, but really wasn't. Unplugging is more important than expected in some cases if you really want to use the least amount of electricity possible.
 <p>
 I also looked at utility bills and found that our actual use for one month was 186 kWh, which means that our actual use is about 186kWh/month / 31 days = 6kWh/d. So the measurements and calculations above are not completely accurate. We must be using things a bit more than expected.
 
@@ -95,7 +95,7 @@ So 23.7 / 100 = .237 kWh per mile * 21 miles = 4.977 or about 5 kWh per day. Thi
 We used 108 to 142 Therms per year for gas heating. 142 therms = 4146 kWh. 4146 / 12 months = 346 kWh, or 4146 / 365 days = 11.4 kWh per day. Using electrical for all of our heating could triple our electrical use.
 
 <h3>Solar Energy and Efficiency</h3>
-You can skip this section to use the online caclulator described below in Solar System Size or us this calculator <a href="https://pvwatts.nrel.gov">https://pvwatts.nrel.gov</a>. This section gives a liitle more information about the details of a calculator and what is important for roof angles, and your location.
+You can skip this section to use the online caclulator described below in Solar System Size or us this calculator <a href="https://pvwatts.nrel.gov">https://pvwatts.nrel.gov</a>. This section gives a little more information about the details of a calculator and what is important for roof angles, and your location.
 <p>
 You can find sun angles for your location from different web sites such as <a href="https://www.esrl.noaa.gov/gmd/grad/solcalc/azel.html">https://www.esrl.noaa.gov/gmd/grad/solcalc/azel.html</a> or <a href="http://solarelectricityhandbook.com/solar-angle-calculator.html">http://solarelectricityhandbook.com/solar-angle-calculator.html</a>.
 My winter angle is about 60 degrees from horizontal and the summer angle is about 25 degrees. My roof pitch is 18.43 degrees.
