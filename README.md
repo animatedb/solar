@@ -1,7 +1,10 @@
 # solar
 Hopefully helpful information about installing solar for a residence
 
-<h2>Introduction</h2>
+<a href="#Intro">Introduction</a>
+<a href="#Selection">Selecting a System</a>
+
+<h2 href="Intro">Introduction</h2>
 First a couple of graphs as an introduction, then later get into the details. A 3.24 kW grid-tied system with 12 panels was installed on August of 2018. 
 <p>
 This first graph shows the amount of electricity generated, and the amount used. It also shows the solar declination, which is the angle that the sun hits the earth. The usage is with no electric car and pretty minimal use of other electricity, but some electrical use for heating in the winter. This means that for the first year, we have used natural gas for heating for a couple of days.
@@ -14,7 +17,7 @@ The following graph shows the amount of surplus electricity. My utility has an a
 <h3>Initial Goals</h3>
 I wanted to be green, so I didn't mind paying a bit more for a system that is currently needed. I would expect that I will have an electric vehicle in the future. It is also typically true that you will get paid less for the electricty that is generated than you might expect, especially since it might be the case that electrical costs could drop in the future. So currently I plan to use the excess for electric heating in the winter, which will reduce the natrual gas furnace usage.
 
-<h3>Figuring out Use</h3>
+<h3>Estimating Use</h3>
 <h4>Electric Use</h4>
 I figured out our current use two ways. The first was to find the devices in the home that are using electricty. The second was by using utility bills.
 <p>
