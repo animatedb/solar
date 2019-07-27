@@ -1,10 +1,12 @@
 # solar
 Hopefully helpful information about installing solar for a residence
 
-<a href="#Intro">Introduction</a>
-<a href="#Selection">Selecting a System</a>
+<a href="#Intro">Introduction</a><br>
+<a href="#Selection">Selecting a System</a><br>
+<a href="#Selection">Selecting a System</a><br>
+<a href="#Planning">Planning the System</a><br>
 
-<h2 href="Intro">Introduction</h2>
+<h2 id="Intro">Introduction</h2>
 First a couple of graphs as an introduction, then later get into the details. A 3.24 kW grid-tied system with 12 panels was installed on August of 2018. 
 <p>
 This first graph shows the amount of electricity generated, and the amount used. It also shows the solar declination, which is the angle that the sun hits the earth. The usage is with no electric car and pretty minimal use of other electricity, but some electrical use for heating in the winter. This means that for the first year, we have used natural gas for heating for a couple of days.
@@ -13,7 +15,7 @@ This first graph shows the amount of electricity generated, and the amount used.
 The following graph shows the amount of surplus electricity. My utility has an annual true-up program, which means the amount you owe or are paid is figured out once per year. The goal generally is to generate the same amount of electricity over the year as you use.
 <img src="generation/SolBalance.svg">
 
-<h2>Selecting a System</h2>
+<h2 id="Selection">Selecting a System</h2>
 <h3>Initial Goals</h3>
 I wanted to be green, so I didn't mind paying a bit more for a system that is currently needed. I would expect that I will have an electric vehicle in the future. It is also typically true that you will get paid less for the electricty that is generated than you might expect, especially since it might be the case that electrical costs could drop in the future. So currently I plan to use the excess for electric heating in the winter, which will reduce the natrual gas furnace usage.
 
@@ -184,7 +186,7 @@ With this system, we plan to use a very small amount of electricity in the summe
 <p>
 We will generate excess electricity in the summer that goes back to the grid, then use a lot in the winter for heating. So the excess in the summer goes towards other people's AC units, which can still reduce the amount of utility plant generation even if we aren't using it.
 	  
-<h2>Planning the System</h2>
+<h2 id="Planning">Planning the System</h2>
 I originally started making the plans on my own. In my case the city controls solar permits and the city requires the following:
 <ul>
   <li>A drawing of the plot of land and house showing the solar panels</li>
