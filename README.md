@@ -5,6 +5,7 @@ Hopefully helpful information about installing solar for a residence
 <a href="#Selection">Selecting a System</a><br>
 <a href="#Planning">Planning the System</a><br>
 <a href="#Install">Installing the System</a><br>
+<a href="#Maintenance">Maintenance</a><br>
 
 <h2 id="Intro">Introduction</h2>
 First a couple of graphs as an introduction and later the details. A 3.24 kW grid-tied system with 12 panels was installed on August of 2018. 
@@ -309,6 +310,11 @@ This shows the back of the inverter where the AC is going towards the AC disconn
 <img src="images/inverter2.jpg">
 The AC disconnect to the solar must be on the outside of the house. I had to move the cable box and I basically moved it without changing the wires much.  I had some difficulty finding two breakers that are required for this system. There was one that was empty, and eventually I discovered another that we were not using. At first I was thinking that two were not available, which would have required running a subpanel.
 <img src="images/main-panel.jpg">
+
+<H2 id="Maintenance">Maintenance</h2>
+I noticed from the graphs that the generation had dropped during the first year. It hadn't rained for about 3 months, so I cleaned the panels two weeks before the end of the first year.
+<img src="images/clean-panels.jpg">
+
 
 <h3>Summary</h3>
 The following shows some rough parts and cost
