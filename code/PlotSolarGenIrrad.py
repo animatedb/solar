@@ -3,6 +3,7 @@ import datetime as dt
 import matplotlib
 matplotlib.use('agg')
 import matplotlib.pyplot as plt
+import matplotlib.dates as mdates
 import numpy as numpy
 import math as math
 import csv as csv
@@ -127,9 +128,10 @@ def plotAll(genUseFn, temperatureFn):
     ax.set_axisbelow(True)
     ax.tick_params(axis='x', rotation=65)
 
-# This only displays years. It displayed full string when axis was string instead of datetime.
-#    numWeeks = (dateData[-1] - dateData[0]).days / 14
+#    numWeeks = (dateData[-1] - dateData[0]).days / 7
 #    ax.xaxis.set_major_locator(plt.MaxNLocator(numWeeks))
+    ax.xaxis.set_major_locator(mdates.MonthLocator())
+    ax.xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m'))
 
     plt.scatter(dateData, genData, label='Generation')
     plt.plot(dateData, genData)
