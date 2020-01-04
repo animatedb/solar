@@ -38,9 +38,7 @@ def getDecl(minGen, maxGen, numDays):
     numWeeks = numDays/7
     for timeIndex in range(0, numWeeks):
 	declIndex = timeIndex + dateShift
-	if declIndex >= 52:
-	    declIndex -= 52
-	weekDecl.append(declination[declIndex*7] * kwhMult + kwhOffset)
+	weekDecl.append(declination[declIndex%52*7] * kwhMult + kwhOffset)
     return weekDecl
 
 # Averages temperatures from daily into weekly temperatures.
@@ -143,14 +141,14 @@ def plotAll(genUseFn, temperatureFn):
 
     if showTemperature:
         invLowTemperatures = scaleTemperatures(lowTemperatures, useData)
-        plt.scatter(temperatureDates, invLowTemperatures, label='Inverted Low Temperature',
+        plt.scatter(temperatureDates, invLowTemperatures, label='Avg. Daily Low Temp',
 	    c=temprColor, zorder=0)
         plt.plot(temperatureDates, invLowTemperatures, color=temprColor, zorder=0)
 
         axTemperature = ax.twinx()   # right side Y axis
         axTemperature.yaxis.set_label_position('right')
         axTemperature.yaxis.tick_right()
-        axTemperature.set_ylabel('Inverted Low Temperature')
+        axTemperature.set_ylabel('Avg. Daily Low Temperature (F)')
 	tempYticks = numpy.linspace(0.85, 0.105, 10)
 	tempYTemp = numpy.round(numpy.linspace(min(lowTemperatures), max(lowTemperatures), 10), 1)
 #        plt.yticks([0.85,0.105], [min(lowTemperatures), max(lowTemperatures)])
