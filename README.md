@@ -10,10 +10,14 @@ Hopefully helpful information about installing solar for a residence
 <h2 id="Intro">Introduction</h2>
 First a couple of graphs as an introduction and later the details. A 3.24 kW grid-tied system with 12 panels was installed on August of 2018. 
 <p>
-This first graph shows the amount of electricity generated, and the amount used. It also shows the solar declination, which is the angle that the sun hits the earth. The usage is with no electric car and pretty minimal use of other electricity, but some electrical use for heating in the winter. This means that for the first year, we have used natural gas for heating for a couple of days.
+This first graph shows the amount of electricity generated, and the amount used. The usage is with no electric car and pretty minimal use of other electricity, but some electrical use for heating in the winter. This means that for the first year, we have used natural gas for heating for a couple of days.
+<img src="generation/SolGenUse.svg">
+
+This following graph adds in the solar declination, which is the angle that the sun hits the earth and
+the average daily temperature over a week.
 <img src="generation/SolGenIrrad.svg">
 
-The following graph shows the amount of surplus electricity. My utility has an annual true-up program, which means the amount you owe or are paid is figured out once per year. The goal generally is to generate the same amount of electricity over the year as you use. Note that coming out even for the year would be getting back to zero, so this indicates a large surplus the first year.
+The following graph shows the amount of surplus electricity. My utility has an annual true-up program, which means the amount you owe or are paid is figured out once per year. The goal generally is to generate the same amount of electricity over the year as you use. Note that coming out even for the year would be getting back to zero, so this indicates a large surplus the first and following years. This graph shows the Covid impact in March of 2020 where two of us were working at home.
 <img src="generation/SolBalance.svg">
 
 <h2 id="Selection">Selecting a System</h2>
@@ -37,6 +41,7 @@ I used a Watt meter (Killawatt) to measure different devices and multiplied by e
   <tr><td>13</td><td>Range</td><td>800W * .5h * 5 days / 30 days</td></tr>
   
   <tr><td>100</td><td>Washer</td><td>500W * 40 minutes = 350W * 2 people / 7 = 100 Wh</td></tr>
+  <tr><td>0</td><td>Dryer</td><td>All drying is done on a rack.</td></tr>
 
 <!-- Entertainment/work -->
   <tr><td>540</td><td>TV</td><td>0W when off, 90W * 6h</td></tr>
@@ -94,6 +99,9 @@ So 23.7 / 100 = .237 kWh per mile * 21 miles = 4.977 or about 5 kWh per day. Thi
 
 <h4>Electric Heating</h4>
 We used 108 to 142 Therms per year for gas heating. 142 therms = 4146 kWh. 4146 / 12 months = 346 kWh, or 4146 / 365 days = 11.4 kWh per day. Using electrical for all of our heating could triple our electrical use.
+<p/>
+For the first two years, we kept the house very cold in the winter, so did not use much electricty for heating, but it was a bit painful. In September of 2020, we purchased a heat pump, which is supposedly 2 to 3 times more efficient than a plain electric heater. I am expecting it to be fairly efficient since our climate 
+
 
 <h3>Solar Energy and Efficiency</h3>
 You can skip this section to use the online caclulator described below in Solar System Size or us this calculator <a href="https://pvwatts.nrel.gov">https://pvwatts.nrel.gov</a>. This section gives a little more information about the details of a calculator and what is important for roof angles, and your location.
@@ -313,6 +321,9 @@ The AC disconnect to the solar must be on the outside of the house. I had to mov
 
 <H2 id="Maintenance">Maintenance</h2>
 I noticed from the graphs that the generation had dropped during the first year. It hadn't rained for about 3 months, so I cleaned the panels two weeks before the end of the first year.
+<p/>
+The second year was interesting since I cleaned the panels in August, but
+there were forest fires causing smog between August 18 and reducing in September causing reduced generation.
 <img src="images/clean-panels.jpg">
 
 
@@ -324,3 +335,4 @@ Total cost was about 7385$ - 2216$ (federal rebate) = 5169$.
 If you have any questions or comments, please let me know.
 <p>
 A good summary may take some time because the system has been used such a short amount of time. Wait till next time.
+
