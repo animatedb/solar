@@ -100,7 +100,7 @@ So 23.7 / 100 = .237 kWh per mile * 21 miles = 4.977 or about 5 kWh per day. Thi
 <h4>Electric Heating</h4>
 We used 108 to 142 Therms per year for gas heating. 142 therms = 4146 kWh. 4146 / 12 months = 346 kWh, or 4146 / 365 days = 11.4 kWh per day. Using electrical for all of our heating could triple our electrical use.
 <p/>
-For the first two years, we kept the house very cold in the winter, so did not use much electricty for heating, but it was a bit painful. In September of 2020, we purchased a heat pump, which is supposedly 2 to 3 times more efficient than a plain electric heater. I am expecting it to be fairly efficient since our climate 
+For the first two years, we kept the house very cold in the winter, so did not use much electricty for heating, but it was a bit painful. In September of 2020, we purchased a heat pump, which is supposedly 2 to 3 times more efficient than a plain electric heater. I am expecting it to be fairly efficient since our climate is pretty mild.
 
 
 <h3>Solar Energy and Efficiency</h3>
