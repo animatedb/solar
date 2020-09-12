@@ -16,13 +16,22 @@ much of the time. There are some called "Mini Split" heat pumps, but these to
 require a bit more work to install like putting some holes in walls, and possibly
 working with refrigerant.
 <p/>
-We finally settled on what is called a "portable" heat pump. These usually require
-a window opening, but we didn't have one since they must normally be sliding style windows.
-<p/>
 I looked around a bit for whether to use a mini split system or some way of running
-a vent. 
+a vent. Every type of heat pump system needs some way to push air outside.
+When heating, it sends cold air to the outside, and when cooling it will
+output hot air.
+<p/>
 But then I realized we do have a fireplace that we never use with a cleanout
 accessible to the outside.
+This allowed us to settle on what is called a "portable" heat pump. These usually require
+a window opening, but we didn't have one since they must normally be sliding style windows.
+<p/>
+The model is the Whynter ARC-14SH for about 540$ which works with a normal household
+outlet. I was more concerned with heating, and it takes 10.5A or 1200W.
+This model looked pretty efficient since it is 13000 BTU for heating and 14000 BTU
+for air conditioning.
+The hose diameter is about 6 inches.
+<p/>
 
 <h3>Fireplace Cleanout</h3>
 The fireplace cleanout inside the house looks like the following.
