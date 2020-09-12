@@ -37,7 +37,13 @@ The hose diameter is about 6 inches.
 The fireplace cleanout inside the house looks like the following.
 <br/>
 <img src="HeatPumpImages/HP_InsideVent1.jpg" height="300">
+The hole rectangular hole size is about 5 inches by 8 inches.
+This is the size of a brick plus the mortar. I removed some mortar
+with a hammer and chizel just to clean up the hole.
 <img src="HeatPumpImages/HP_InsideVent2.jpg" height="300">
+It is kind of hard to see in this picture, but below there is a cavity
+to catch the coals before it can be unfilled from the outside.
+I didn't bother filling it, so I am not sure what it does to the air flow.
 <img src="HeatPumpImages/HP_InsideVent3.jpg" height="300">
 
 <h3>Outside</h3>
@@ -47,17 +53,23 @@ The main idea is to keep animals from getting into the house and to
 provide an easy access for air to get out of the house.
 I made a ramp to improve the air flow.
 <img src="HeatPumpImages/HP_OutsideVentAir.jpg" height="300">
-This is the back of the vent. There is no back bottom brace to prevent
+This is the back of the vent. There is no back bottom brace to restrict
 air flow.<br/>
 <img src="HeatPumpImages/HP_OutsideCover.jpg" height="300">
-I found an old screen, and cut it to side for some old wood I had lying around.<br/>
+I found an old screen, and used an angle grinder to cut it to size for some
+old wood that had been outside and weathered a few years. A bit of primer
+and another final coat and it looks fine.<br/>
 <img src="HeatPumpImages/HP_OutsideFinal.jpg" height="300">
 
 <h3>Inside</h3>
 The hose should be as short as possible to prevent restriction of air.
 The supplied extended hose is six feet. The metal part and hose connectors
-were supplied with the unit. I took some old plastic padding and fit it into the
-metal piece to provide a bit more insulation and bug proofing.
+were supplied with the unit. I took some old plastic packing material and fit
+it into the metal piece to provide a bit more insulation and bug proofing.
+It is just lying on the surface, but sits there pretty well. I put some small
+pieces of wood screwed to the metal to keep it aligned over the rectangular
+cleanout hole. The hole size pretty much exactly matches the hose connector
+size of five inches, although it did not need to be this close at all.
 <img src="HeatPumpImages/HP_InsideVentHose.jpg" height="300">
 So why do we need only one vent to the outdoors from the heat pump? The
 heat pump can be set up where the input air is retrieved from inside the
@@ -67,9 +79,12 @@ able to draw air from somewhere else in the house so that there is not a
 vacuum. Our house is pretty well insulated, but the system seems to work fine.
 <p/>
 I put some foam sheet insulation into the chimney to prevent a bit more air flow.
+I cut to size and could just stick it in place using friction.
 Then for the fireplace cover, 
 I took a piece of wood and glued foam insulation to it. This isolates
-the inside of the fireplace from the rest of the house.
+the inside of the fireplace from the rest of the house. I used Loctite
+Power Grab that I had been around for a few years, but unopened. I am not
+sure why I had it, but was surpised to see that it was fine.
 <img src="HeatPumpImages/HP_InsideFinal.jpg" height="300">
 
 </html>
