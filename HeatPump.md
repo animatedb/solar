@@ -22,11 +22,11 @@ But we do have a fireplace with a cleanout accessible to the outside.
 
 <h3>Fireplace Cleanout</h3>
 The fireplace cleanout inside the house looks like the following.
-<a href="HeatPumpImages/InsideVent1.jpg">Inside Vent 1</a>
-<a href="HeatPumpImages/InsideVent2.jpg">Inside Vent 2</a>
+<img src="HeatPumpImages/InsideVent1.jpg">
+<img src="HeatPumpImages/InsideVent2.jpg">
 <p/>
 The fireplace cleanout outside the house looks like the following.
-<a href="HeatPumpImages/OutsideVent.jpg">Outside Vent</a>
+<img src="HeatPumpImages/OutsideVent.jpg">
 
 <h3>Outside</h3>
 The heat pump will be more efficient if it has an easy way to expel air.
