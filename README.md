@@ -6,6 +6,7 @@ Hopefully helpful information about installing solar for a residence
 <a href="#Planning">Planning the System</a><br>
 <a href="#Install">Installing the System</a><br>
 <a href="#Maintenance">Maintenance</a><br>
+<a href="HeatPump.md">Heat Pump</a><br>
 
 <h2 id="Intro">Introduction</h2>
 First a couple of graphs as an introduction and later the details. A 3.24 kW grid-tied system with 12 panels was installed on August of 2018. 
