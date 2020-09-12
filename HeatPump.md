@@ -22,8 +22,8 @@ But we do have a fireplace with a cleanout accessible to the outside.
 
 <h3>Fireplace Cleanout</h3>
 The fireplace cleanout inside the house looks like the following.
-<img src="HeatPumpImages/HP_InsideVent1.jpg">
-<img src="HeatPumpImages/HP_InsideVent2.jpg">
+<img src="HeatPumpImages/HP_InsideVent1.jpg" width="500" height="400">
+<img src="HeatPumpImages/HP_InsideVent2.jpg" width="500" height="400">
 <p/>
 The fireplace cleanout outside the house looks like the following.
 <img src="HeatPumpImages/HP_OutsideVent.jpg">
