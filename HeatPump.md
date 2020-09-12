@@ -43,7 +43,7 @@ with a hammer and chizel just to clean up the hole.
 <img src="HeatPumpImages/HP_InsideVent2.jpg" height="300">
 It is kind of hard to see in this picture, but below there is a cavity
 to catch the coals before it can be unfilled from the outside.
-I didn't bother filling it, so I am not sure what it does to the air flow.
+I didn't do anything to it, so I am not sure what it does to the air flow.
 <img src="HeatPumpImages/HP_InsideVent3.jpg" height="300">
 
 <h3>Outside</h3>
@@ -58,7 +58,10 @@ air flow.<br/>
 <img src="HeatPumpImages/HP_OutsideCover.jpg" height="300">
 I found an old screen, and used an angle grinder to cut it to size for some
 old wood that had been outside and weathered a few years. A bit of primer
-and another final coat and it looks fine.<br/>
+and another final coat and it looks fine. The screen turned out way
+better than I expected. There is some elastic type rope to hold the screen
+fabric in place in the aluminum, and it still was pliable and could be pushed
+back into a new place after probably 50 years.<br/>
 <img src="HeatPumpImages/HP_OutsideFinal.jpg" height="300">
 
 <h3>Inside</h3>
