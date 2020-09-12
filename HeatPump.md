@@ -22,11 +22,11 @@ But we do have a fireplace with a cleanout accessible to the outside.
 
 <h3>Fireplace Cleanout</h3>
 The fireplace cleanout inside the house looks like the following.
-<img src="HeatPumpImages/HP_InsideVent1.jpg" width="500" height="400">
-<img src="HeatPumpImages/HP_InsideVent2.jpg" width="500" height="400">
+<img src="HeatPumpImages/HP_InsideVent1.jpg" width="500" height="300">
+<img src="HeatPumpImages/HP_InsideVent2.jpg" width="500" height="300">
 <p/>
 The fireplace cleanout outside the house looks like the following.
-<img src="HeatPumpImages/HP_OutsideVent.jpg">
+<img src="HeatPumpImages/HP_OutsideVent.jpg" width="500" height="300">
 
 <h3>Outside</h3>
 The heat pump will be more efficient if it has an easy way to expel air.
@@ -34,9 +34,10 @@ For this reason, I made an outside vent that has a large area for air.
 The main idea is to keep animals from getting into the house and to
 provide an easy access for air to get out of the house.
 I found an old screen, and cut it to side for some old wood I had lying around.
-<img src="HeatPumpImages/HP_OutsideVentAir.jpg">
-<img src="HeatPumpImages/HP_OutsideCover.jpg">
-<img src="HeatPumpImages/HP_OutsideFinal.jpg">
+I made a ramp to improve the air flow.
+<img src="HeatPumpImages/HP_OutsideVentAir.jpg" width="500" height="300">
+<img src="HeatPumpImages/HP_OutsideCover.jpg" width="500" height="300">
+<img src="HeatPumpImages/HP_OutsideFinal.jpg" width="500" height="300">
 
 <h3>Inside</h3>
 <a href="HeatPumpImages/InsideHose.jpg">Inside Hose</a>
