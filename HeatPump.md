@@ -53,13 +53,18 @@ The supplied extended hose is six feet. The metal part and hose connectors
 were supplied with the unit. I took some old plastic padding and fit it into the
 metal piece to provide a bit more insulation and bug proofing.
 <img src="HeatPumpImages/HP_InsideVentHose.jpg" height="300">
+So why do we need only one vent to the outdoors from the heat pump? The
+heat pump can be set up where the input air is retrieved from inside the
+house, and push the air to the outside. This is typically efficient if
+the indoor temperature is close to the desired temperature and if it is
+able to draw air from somewhere else in the house so that there is not a
+vacuum. Our house is pretty well insulated, but the system seems to work fine.
+<p/>
 I put some foam sheet insulation into the chimney to prevent a bit more air flow.
 Then for the fireplace cover, 
 I took a piece of wood and glued foam insulation to it. This isolates
-the fireplace from the rest of the house.
+the inside of the fireplace from the rest of the house.
 <img src="HeatPumpImages/HP_InsideFinal.jpg" height="300">
-
-Why do we need only one vent to the outdoors from the heat pump?
 
 </html>
 
