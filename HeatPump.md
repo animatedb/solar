@@ -18,7 +18,11 @@ working with refrigerant.
 <p/>
 We finally settled on what is called a "portable" heat pump. These usually require
 a window opening, but we didn't have one since they must normally be sliding style windows.
-But we do have a fireplace with a cleanout accessible to the outside.
+<p/>
+I looked around a bit for whether to use a mini split system or some way of running
+a vent. 
+But then I realized we do have a fireplace that we never use with a cleanout
+accessible to the outside.
 
 <h3>Fireplace Cleanout</h3>
 The fireplace cleanout inside the house looks like the following.
@@ -38,12 +42,22 @@ provide an easy access for air to get out of the house.
 I found an old screen, and cut it to side for some old wood I had lying around.
 I made a ramp to improve the air flow.
 <img src="HeatPumpImages/HP_OutsideVentAir.jpg" height="300">
+This is the back of the vent. There is no back bottom brace to prevent
+air flow.<br/>
 <img src="HeatPumpImages/HP_OutsideCover.jpg" height="300">
 <img src="HeatPumpImages/HP_OutsideFinal.jpg" height="300">
 
 <h3>Inside</h3>
-<a href="HeatPumpImages/InsideHose.jpg">Inside Hose</a>
-<a href="HeatPumpImages/InsideFinal.jpg">Inside Final</a>
+The hose should be as short as possible to prevent restriction of air.
+The supplied extended hose is six feet. The metal part and hose connectors
+were supplied with the unit. I took some old plastic padding and fit it into the
+metal piece to provide a bit more insulation and bug proofing.
+<img src="HeatPumpImages/HP_InsideVentHose.jpg" height="300">
+I put some foam sheet insulation into the chimney to prevent a bit more air flow.
+Then for the fireplace cover, 
+I took a piece of wood and glued foam insulation to it. This isolates
+the fireplace from the rest of the house.
+<img src="HeatPumpImages/HP_InsideFinal.jpg" height="300">
 
 Why do we need only one vent to the outdoors from the heat pump?
 
