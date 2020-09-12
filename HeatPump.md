@@ -48,7 +48,7 @@ I didn't do anything to it, so I am not sure what it does to the air flow.
 
 <h3>Outside</h3>
 The heat pump will be more efficient if it has an easy way to expel air.
-The rectangular hole in the fireplace is about size by nine inches, so should
+The rectangular hole in the fireplace is about six by nine inches, so should
 be large enough.
 I made the outside vent cover very large so that it will not restrict anything.
 The main idea is to keep animals from getting into the house and to
