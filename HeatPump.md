@@ -17,7 +17,7 @@ require a bit more work to install like putting some holes in walls, and possibl
 working with refrigerant.
 <p/>
 I looked around a bit for whether to use a mini split system or some way of running
-a vent. Every type of heat pump system needs some way to push air outside.
+a vent. Every type of heat pump system needs some way to push air or liquid outside.
 When heating, it sends cold air to the outside, and when cooling it will
 output hot air.
 <p/>
