@@ -90,6 +90,8 @@ I took a piece of wood and glued foam insulation to it. This isolates
 the inside of the fireplace from the rest of the house. I used Loctite
 Power Grab that I had been around for a few years, but unopened. I am not
 sure why I had it, but was surpised to see that it was fine.<br/>
+<img src="HeatPumpImages/HP_InsideHose.jpg" height="300">
+Finally the end result.<br/>
 <img src="HeatPumpImages/HP_InsideFinal.jpg" height="300">
 
 </html>
