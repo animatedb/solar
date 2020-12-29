@@ -95,7 +95,10 @@ sure why I had it, but was surpised to see that it was fine.<br/>
 Using the heater in the winter required emptying the water often. I bought a
 3/8" ID x 3/8" FIP adapter, but the threading isn't deep enough for the heat pump.
 So additionally I got a 3.8" Coupling and connected them both with a 3/8" x 1 1/2"
-Nipple. I got all of these parts at Home Depot. I additionally purchased a
+Nipple. I got all of these parts at Home Depot. I also noticed that the plumbers
+putty said not to use it on plastic, so I used teflon tape to connect to the heat pump.
+
+I additionally purchased a
 3/8" ID plastic hose and ran it through a similar path as the exhaust hose. At
 first the water would not drain since it was not a constant downward slope and
 there was some air in the hose. I sucked a bit on the hose to get it started,
