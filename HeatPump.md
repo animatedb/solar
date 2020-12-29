@@ -91,6 +91,12 @@ the inside of the fireplace from the rest of the house. I used Loctite
 Power Grab that I had been around for a few years, but unopened. I am not
 sure why I had it, but was surpised to see that it was fine.<br/>
 <img src="HeatPumpImages/HP_InsideHose.jpg" height="300">
+<p/>
+Using the heater in the winter required emptying the water often. I bought a
+3/8" ID x 3/8" FIP adapter, but the threading isn't deep enough for the heat pump.
+So additionally I got a 3.8" Coupling and connected them both with a 3/8" x 1 1/2"
+Nipple. I got all of these parts at Home Depot.<br/>
+<img src="HeatPumpImages/HP_DrainConnector.jpg" height="300">
 <br/>
 Finally the end result.<br/>
 <img src="HeatPumpImages/HP_InsideFinal.jpg" height="300">
