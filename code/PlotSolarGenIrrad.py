@@ -117,8 +117,8 @@ def getGenUse(genUseFn:str) -> Tuple[List[dt.datetime], List[float], List[float]
             genIndex = ord('O')-ord('A')
             if row[genIndex] and row[0] != 'Date':
                 dateData.append(getDateMDY(row[0]))
-                genData.append(float(row[genIndex])*7)
-                useData.append(float(row[ord('P')-ord('A')])*7)
+                genData.append(float(row[genIndex]))
+                useData.append(float(row[ord('P')-ord('A')]))
     return dateData, genData, useData
 
 def intround(x, resolution):
@@ -134,7 +134,7 @@ def plotAll(genUseFn:str, temperatureFn:str) -> None:
         temperatureDates, lowTemperatures, highTemperatures = getTemperature(temperatureFn)
         temperatureDates, lowTemperatures, highTemperatures = weeklyTemps(
             temperatureDates, lowTemperatures, highTemperatures)
-    declination = getDecl(9*7, MaxDecl*7, len(dateData)*7)
+    declination = getDecl(9, MaxDecl*7, len(dateData))
 
     fig = plt.figure()
     fig.set_size_inches(10, 7)
@@ -166,7 +166,7 @@ def plotAll(genUseFn:str, temperatureFn:str) -> None:
     plt.scatter(dateData, declination, label='Declination')
     plt.plot(dateData, declination)
     plt.title('Solar Generation and Use - 3.24 kW System')
-    plt.ylabel('Weekly Solar Generation and Energy Use (kWh)')
+    plt.ylabel('Daily Solar Generation and Energy Use (kWh)')
 
     if showTemperature:
         PlotLows = False
