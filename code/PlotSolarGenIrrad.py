@@ -134,7 +134,7 @@ def plotAll(genUseFn:str, temperatureFn:str) -> None:
         temperatureDates, lowTemperatures, highTemperatures = getTemperature(temperatureFn)
         temperatureDates, lowTemperatures, highTemperatures = weeklyTemps(
             temperatureDates, lowTemperatures, highTemperatures)
-    declination = getDecl(9, MaxDecl*7, len(dateData))
+    declination = getDecl(9, MaxDecl, len(dateData)*7)
 
     fig = plt.figure()
     fig.set_size_inches(10, 7)
