@@ -11,12 +11,24 @@ Hopefully helpful information about installing solar for a residence
 <h2 id="Intro">Introduction</h2>
 First a couple of graphs as an introduction and later the details. A 3.24 kW grid-tied system with 12 panels was installed on August of 2018. 
 <p>
-This first graph shows the amount of electricity generated, and the amount used. The usage is with no electric car and pretty minimal use of other electricity, but some electrical use for heating in the winter. This means that for the first year, we have used natural gas for heating for a couple of days.
-<img src="generation/SolGenUse.svg">
+This graph shows the amount of electricity generated, and the amount used for two people. It also shows solar declination and average daily temperature. The only natural gas used is for a water heater and a few days a year for heating since electrical heating is mostly used. The solar declination is the angle that the sun hits the earth.
+<p>
+<ul>
+  <li>Aug 2018 - 3.24 kW solar installed</li>
+  <li>Mar 18, 2020 - Covid allowed both of us to work from home</li>
+  <li>Sep 12, 2020 - Wildfires caused lower solar generation and temperatures</li>
+  <li>Nov 12, 2020 - Replaced space heaters with a 'portable' heat pump</li>
+  <li>Mar 30, 2021 - Purchased an elecric car</li>
+  <li>Aug 15, 2021 - Wildfires</li>
+  <li>Oct 10, 2021 - Added a two panel ground system of about .6 kW with a ineffective Y&H 1kW inverter</li>
+  <li>Apr 28, 2022 - Purchased and installed Tasmoto on 4 Sonoff electrical monitoring plugs</li>
+  <li>May 25, 2022 - Replaced the inverter with a used Vevor 1.2kW 4 channel inverter</li>
+</ul>
 
-This following graph adds in the solar declination, which is the angle that the sun hits the earth and
-the average daily temperature over a week.
 <img src="generation/SolGenIrrad.svg">
+
+This graph shows the details of usage since May of 2022.
+<img src="generation/ElecGenMon.svg">
 
 The following graph shows the amount of surplus electricity. My utility has an annual true-up program, which means the amount you owe or are paid is figured out once per year. The goal generally is to generate the same amount of electricity over the year as you use. Note that coming out even for the year would be getting back to zero, so this indicates a large surplus the first and following years. This graph shows the Covid impact in March of 2020 where two of us were working at home.
 <img src="generation/SolBalance.svg">
