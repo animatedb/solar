@@ -92,19 +92,12 @@ Power Grab that I had been around for a few years, but unopened. I am not
 sure why I had it, but was surpised to see that it was fine.<br/>
 <img src="HeatPumpImages/HP_InsideHose.jpg" height="300">
 <p/>
-Using the heater in the winter required emptying the water often. I bought a
-3/8" ID x 3/8" FIP adapter, but the threading isn't deep enough for the heat pump.
-So additionally I got a 3.8" Coupling and connected them both with a 3/8" x 1 1/2"
-Nipple. I got all of these parts at Home Depot. I also noticed that the plumbers
-putty said not to use it on plastic, so I used teflon tape to connect to the heat pump.
-
-I additionally purchased a
-3/8" ID plastic hose and ran it through a similar path as the exhaust hose. At
-first the water would not drain since it was not a constant downward slope and
-there was some air in the hose. I sucked a bit on the hose to get it started,
-and then it drained fine. Something to remember next time is to try to get
-a constant slope on the hose.<br/>
-<img src="HeatPumpImages/HP_DrainConnector.jpg" height="300">
+I called Whynter and they said to buy a GE WJ71X24133 hose drain. I tried this
+at first, but then I just tried a 3/8" ID plastic hose with about a
+10 or 11 mm hose clip and ran it through a similar path as the exhaust hose.
+At first the water would not drain since it was not
+a constant downward slope and there was some air in the hose. I changed the
+slope and then it drained fine.<br/>
 <br/>
 Finally the end result.<br/>
 <img src="HeatPumpImages/HP_InsideFinal.jpg" height="300">
