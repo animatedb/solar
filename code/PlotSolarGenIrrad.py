@@ -44,7 +44,12 @@ def getDecl(minGen:float, maxGen:float, numDays:int) -> List[float]:
     numWeeks = int(numDays/7)
     for timeIndex in range(0, numWeeks):
         declIndex = timeIndex + dateShift
-        weekDecl.append(declination[declIndex%52*7] * kwhMult + kwhOffset)
+        value = declination[declIndex%52*7] * kwhMult + kwhOffset
+        if timeIndex > 160:   # 10/10/2021 Y&H 1000W inverter
+            value *= 1.04
+        if timeIndex > 194:   # 5/25/2022 Vevor/Marsrock inverter - same as Mophorn/WVC? 4*300W
+            value *= 1.08
+        weekDecl.append(value)
     return weekDecl
 
 # Averages temperatures from daily into weekly temperatures.
@@ -114,11 +119,13 @@ def getGenUse(genUseFn:str) -> Tuple[List[dt.datetime], List[float], List[float]
         genData = []
         useData = []
         for row in csvData:
-            genIndex = ord('O')-ord('A')
-            if row[genIndex] and row[0] != 'Date':
+            genColumnIndex = ord('R')-ord('A')
+            useColumnIndex = ord('S')-ord('A')
+            if row[genColumnIndex] and row[0] != 'Date':
                 dateData.append(getDateMDY(row[0]))
-                genData.append(float(row[genIndex]))
-                useData.append(float(row[ord('P')-ord('A')]))
+                genData.append(float(row[genColumnIndex]))
+                useData.append(float(row[useColumnIndex]))
+               
     return dateData, genData, useData
 
 def intround(x, resolution):
@@ -158,15 +165,20 @@ def plotAll(genUseFn:str, temperatureFn:str) -> None:
     ax.xaxis.set_minor_locator(mdates.MonthLocator())
     # minus sign gets rid of leading zero.
     ax.xaxis.set_minor_formatter(mdates.DateFormatter('%-m'))
+    for tick in ax.xaxis.get_minor_ticks():
+        tick.label.set_fontsize(8)
 
-    plt.scatter(dateData, genData, label='Generation')
+    plt.scatter(dateData, genData, label='Generation', s=4)
     plt.plot(dateData, genData)
-    plt.scatter(dateData, useData, label='Use')
+    plt.scatter(dateData, useData, label='Use', s=4)
     plt.plot(dateData, useData)
-    plt.scatter(dateData, declination, label='Declination')
+    plt.scatter(dateData, declination, label='Declination', s=4)
     plt.plot(dateData, declination)
-    plt.title('Solar Generation and Use - 3.24 kW System')
-    plt.ylabel('Daily Solar Generation and Energy Use (kWh)')
+    plt.title('Solar Generation and Use - 3.24+.6 kW System')
+    plt.ylabel('Avg. Daily Solar Generation and Energy Use (kWh)')
+
+    for tick in ax.xaxis.get_major_ticks():
+        tick.set_pad(8)
 
     if showTemperature:
         PlotLows = False
@@ -179,11 +191,11 @@ def plotAll(genUseFn:str, temperatureFn:str) -> None:
             for tempi, lowTemp in enumerate(lowTemperatures):
                 temperatures.append((lowTemp + highTemperatures[tempi]) / 2)
             label = 'Avg. Daily Temp'
-            yLabel = 'Avg. Daily Temperature (F)'
+            yLabel = 'Inverted Avg. Daily Temperature (F)'
         invTemperatures, scaledMinTemp, scaledMaxTemp = scaleTemperatures(temperatures, useData)
 #        invTemperatures, tempToUseScale = scaleTemperatures(temperatures, useData)
         plt.scatter(temperatureDates, invTemperatures, label=label,
-	    c=temprColor, zorder=0)
+	    c=temprColor, zorder=0, s=4)
         plt.plot(temperatureDates, invTemperatures, color=temprColor, zorder=0)
 
         axTemperature = ax.twinx()   # right side Y axis
@@ -221,12 +233,17 @@ def plotAll(genUseFn:str, temperatureFn:str) -> None:
                     tempYTemp.append('')
 
     if showAnnotations:
-        annotate(plt, fig, ax, dateData, '3/18/20', 'Covid', 0, .22)
-        annotate(plt, fig, ax, dateData, '9/12/20', 'Fires', .04, .28)
-        annotate(plt, fig, ax, dateData, '11/12/20', 'Heat Pump', .08, .245)
+        annotate(plt, fig, ax, dateData, '3/18/20', 'Covid', -0.05, .24)
+        annotate(plt, fig, ax, dateData, '9/12/20', 'Fires', -0.02, .28)
+        annotate(plt, fig, ax, dateData, '11/12/20', 'Heat Pump', .03, .24)
+        annotate(plt, fig, ax, dateData, '3/30/21', 'Elec. Car', .01, .20)
+        annotate(plt, fig, ax, dateData, '8/15/21', 'Fires', .065, .28)
+        annotate(plt, fig, ax, dateData, '10/10/21', '+.6 kW', .08, .24)
+        annotate(plt, fig, ax, dateData, '5/25/22', 'New Inverter', .065, .28)
 
 #        plt.yticks([0.85,0.105], [min(lowTemperatures), max(lowTemperatures)])
-        plt.yticks(tempYTicks, tempYTemp)
+        if showTemperature:
+            plt.yticks(tempYTicks, tempYTemp)
 #    axTemperature.tick_params(axis='y', labelcolor=temprColor)
 
     ax.legend()
@@ -234,16 +251,19 @@ def plotAll(genUseFn:str, temperatureFn:str) -> None:
     ax.set_ylim(ymin=0)
     plt.savefig('SolGenIrrad.svg', bbox_inches='tight')
 
-# The xFudgePerc can be used to adjust X for size of text, etc.
+# The xFudgePerc moves left a bit and can be used to adjust X for size of text, etc.
 def annotate(plt, fig, ax, dateData, date, text, xFudgePerc, yPerc):
     bbox = ax.yaxis.get_tightbbox(fig.canvas.get_renderer())
     rightMarginWidth = (bbox.x1-bbox.x0)
-    # The .02 is a fudge for moving left just a bit.
+    # leftAxisPerc is about 0.05 or 5%.
     leftAxisPerc = rightMarginWidth / (fig.get_size_inches()[0] * fig.dpi) + xFudgePerc
     datePerc = calcDatePercent(getDateMDY(date), dateData)
+    # These move all annotations horizontally and vertically
+    datePerc *= 0.91    # Graph may go longer than dateData.
+    yPerc *= 0.78       # Height of graph changes also.
     plt.annotate(xy=[datePerc-leftAxisPerc, yPerc], text=text, xycoords='figure fraction')
 
 
 if __name__ == "__main__":
-	plotAll('../SolarGeneration.csv', 'Temperature/Source/noaa.csv')
+	plotAll('../SolarGeneration.csv', '../Temperature/noaa.csv')
 
