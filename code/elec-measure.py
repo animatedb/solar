@@ -8,11 +8,14 @@ import matplotlib.dates as mdates
 import numpy as numpy
 import math as math
 import csv as csv
-import PlotSolarGenIrrad as psgi
+import SolarUseIrrad as sui
 from typing import Dict, List, Tuple
 
 def getDateMDY(dateStr:str) -> dt.datetime:
-    return dt.datetime.strptime(dateStr, '%m/%d/%y')
+    if dateStr[-3] == '/':
+        return dt.datetime.strptime(dateStr, '%m/%d/%y')    # y = 2 digit year
+    else:
+        return dt.datetime.strptime(dateStr, '%m/%d/%Y')    # Y = 4 digit year
 
 ##def addLists(list1:List[float], list2:List[float], list3:List[float]=None) -> List[float]:
 ##    if list3:
@@ -123,20 +126,20 @@ def readMeasurementsFile(measurementsFn:str) -> Measurements:
     with open(measurementsFn, 'r') as f:
         csvData = csv.reader(f)
         headers = []
-        for row in csvData:
+        for rowI, row in enumerate(csvData):
             # First row is used as header identification.
             if len(headers) == 0:
                 headers = row
             # First column must be a date.
             if '/' in row[0]:
-                measurements.addRowValues(headers, row)
+                try:
+                    measurements.addRowValues(headers, row)
+                except ValueError as e:
+                    raise ValueError('row ', rowI+1) from e
     if len(measurements) == 0:
         raise ValueError('No dates found in column A')
     return measurements
 
-
-def getDateMDY(dateStr:str) -> dt.datetime:
-    return dt.datetime.strptime(dateStr, '%m/%d/%y')
 
 def getRowColumn(row, column:str) -> float:
     return float(row[ord(column)-ord('A')])
@@ -178,5 +181,5 @@ if __name__ == "__main__":
     measurements.addDerivedValues()
     periodMeasurements = measurements.getPeriodMeasurements('05/07/22')
     plotDetails(periodMeasurements)
-#    periodMeasurements = measurements.getPeriodMeasurements()
-#    psgi.plotAll(periodMeasurements, '../generation/Temperature/noaa.csv')
+    periodMeasurements = measurements.getPeriodMeasurements()
+    sui.plotAll(periodMeasurements, '../generation/Temperature/noaa.csv')
