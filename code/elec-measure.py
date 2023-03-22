@@ -37,6 +37,19 @@ def subtractLists(list1:List[float], list2:List[float]) -> List[float]:
 #    return clip([list1[i] - list2[i] for i in range(len(list1))])
     return [list1[i] - list2[i] for i in range(len(list1))]
 
+def getGenKeys() -> List[str]:
+    return ['Roof Solar', 'Ground Solar']
+
+def getUseKeys() -> List[str]:
+    return ['TV / Cable', 'Computers', 'Bath Heat', 'Living Heat', 'Car']
+
+def addDerivedValues(meas) -> None:
+    meas['Total Solar'] = addLists(*[meas[key] for key in getGenKeys()])
+    meas['Measured Use'] = addLists(*[meas[key] for key in getUseKeys()])
+    meas['Total Use'] = addLists(meas['Total Solar'], meas['Main Meter'])
+    meas['Other'] = subtractLists(meas['Total Use'], meas['Measured Use'])
+
+
 class Measurements(dict):
     # headers must be the same every time this is called.
     # rowValues must align with headers.
@@ -56,13 +69,6 @@ class Measurements(dict):
                     if len(rowValues[headerI]) > 0:
                         val = float(rowValues[headerI]) * conversion
                     self[header].append(val)
-
-    def addDerivedValues(self) -> None:
-        self['Total Solar'] = addLists(self['Roof Solar'], self['Ground Solar'])
-        self['Measured Use'] = addLists(self['Car'], self['Living Heat'], self['Bath Heat'],
-            self['TV / Cable'], self['Computers'])
-        self['Total Use'] = addLists(self['Total Solar'], self['Main Meter'])
-        self['Other'] = subtractLists(self['Total Use'], self['Measured Use'])
 
     # This preserves the Date, and adds a PeriodDays so that both are present.
     # Returns the differences of neigboring rows.
@@ -145,8 +151,9 @@ def getRowColumn(row, column:str) -> float:
     return float(row[ord(column)-ord('A')])
 
 def plotDetails(periodMeasurements:dict[str, List]):
-    genKeys = ['Roof Solar', 'Ground Solar']
-    useKeys = ['Other', 'TV / Cable', 'Computers', 'Bath Heat', 'Living Heat', 'Car']
+    genKeys = getGenKeys()
+    useKeys = ['Other']
+    useKeys.extend(getUseKeys())
     gen = [ periodMeasurements[key] for key in genKeys ]
     use = [ periodMeasurements[key] for key in useKeys ]
     dates = periodMeasurements['Date']
@@ -178,8 +185,10 @@ def plotDetails(periodMeasurements:dict[str, List]):
 
 if __name__ == "__main__":
     measurements = readMeasurementsFile('ElecMeasure.csv')
-    measurements.addDerivedValues()
     periodMeasurements = measurements.getPeriodMeasurements('05/07/22')
+    addDerivedValues(periodMeasurements)
     plotDetails(periodMeasurements)
+
     periodMeasurements = measurements.getPeriodMeasurements()
+    addDerivedValues(periodMeasurements)
     sui.plotAll(periodMeasurements, '../generation/Temperature/noaa.csv')
