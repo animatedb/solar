@@ -24,31 +24,36 @@ def getDateYMD(dateStr:str) -> dt.datetime:
 def calcDatePercent(selectedDate:dt.datetime, dateData:List[dt.datetime]) -> float:
     return (selectedDate - dateData[0]) / (dateData[-1] - dateData[0])
 
+
+# dayOfYear = 0:365
+# Winter solstice is 0
+def getDayDecl(dayOfYear:int) -> float:
+    return 23.45 * math.pi / 180 * math.sin(2 * math.pi * (284 + dayOfYear) / 365)
+ 
 # Generates weekly declination.
 # The declination of the sun is the angle between a plane perpendicular
 # to a line between the earth and the sun and the earth's axis.
 # https://www.itacanet.org/the-sun-as-a-source-of-energy/part-3-calculating-solar-angles/
-def getDecl(minGen:float, maxGen:float, dayPeriods:List[int]) -> List[float]:
+def getDecl(minGenKWh:float, maxGenKWh:float, dayPeriods:List[int]) -> List[float]:
     # Weekly declination for one year
     declination = []
-    for n in range(0, 365):
-        d = 23.45 * math.pi / 180 * math.sin(2 * math.pi * (284 + n) / 365)
-        declination.append(d)
-    minDecl = min(declination)
-    maxDecl = max(declination)
+    # Summer solstice is june 21, so peak should be at that date.
+    minDecl = getDayDecl(getDateMDY('06/21/2020').timetuple().tm_yday)
+    # Valley should be winter is dec 21
+    maxDecl = getDayDecl(getDateMDY('12/21/2020').timetuple().tm_yday)
     weekDecl = []
-    kwhMult = (maxGen-minGen)/(maxDecl-minDecl)
-    kwhOffset = minGen - minDecl * kwhMult
-    # Summer solstice is june 21, winter is dec 21, so peaks should be at those dates.
+    kwhMult = (maxGenKWh-minGenKWh)/(maxDecl-minDecl)
+    kwhOffset = minGenKWh - minDecl * kwhMult
     # First date is 9/7/2018
-#    dateShift = int(52*8.4/12)	# 36
+#    dateShift = int(52*8.4/12)      # 36
     # 243 days between 1/1/2018 and 9/7/2018 / 7 = 35.57
-    dateShift = 36	# in weeks
+#    dateShift = 36              # in weeks
+    dateShift = 67  # From winter solstice and start measurement date.
     totalDays = 0
     for period in dayPeriods:
         weekIndex = totalDays / 7
-        declIndex = int(weekIndex + dateShift)
-        value = declination[declIndex%52*7] * kwhMult + kwhOffset
+        declIndex = totalDays + dateShift
+        value = getDayDecl(declIndex) * kwhMult + kwhOffset
         if weekIndex > 160:   # 10/10/2021 Y&H 1000W inverter
             value *= 1.04
         if weekIndex > 194:   # 5/25/2022 Vevor/Marsrock inverter - same as Mophorn/WVC? 4*300W
@@ -56,6 +61,7 @@ def getDecl(minGen:float, maxGen:float, dayPeriods:List[int]) -> List[float]:
         weekDecl.append(value)
         totalDays += period
     return weekDecl
+
 
 # Averages temperatures from daily into weekly temperatures.
 def weeklyTemps(dates:List[dt.datetime], lowTemps:List[int], highTemps:List[int]
