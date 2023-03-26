@@ -191,4 +191,4 @@ if __name__ == "__main__":
 
     periodMeasurements = measurements.getPeriodMeasurements()
     addDerivedValues(periodMeasurements)
-    sui.plotAll(periodMeasurements, '../generation/Temperature/noaa.csv')
+    sui.plotAll(periodMeasurements, 'Temperature/noaa.csv')
