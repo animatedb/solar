@@ -1,0 +1,139 @@
+<html>
+<h2>Sonoff Outlet Monitoring and Control using Tasmota</h2>
+The Sonoff plugs work without installing softare, but they can send information
+to places on the internet that don't need the information. So I install open
+source software on the plugs.
+
+This describes how to install open source Tasmoto software on the Sonoff S31
+control and monitoring plug. The Tasmoto software will communicate to a local
+WiFi home router and allow control and viewing electrical information about anything
+connected to the plug.
+
+<h3>Setup for Installing Software on Plug</h3>
+A USB to RS-232 converter that has 3V/5V output can be used to install the software.
+Something like the HiLetGo CP2102 232 485 port converter. It says it is a
+six in one USB to UART Serial Interface Module for about 8$ US.
+<br><br>
+Four jumper wires are needed to connect the converter to the switch.
+The wires can be female to female breadboard jumper wires, or jumper wires with
+hook clips sometimes called test hook clips.
+Jumper wires are sometimes available with the converter. 
+<ul>
+<li>Set the switches on the USB converter so that switch one is on and two is off.</li>
+  <ul>
+  <li>Switch one is on for USB, and off for TTL</li>
+  <li>Switch two is on for RS-485, and off for RS-232</li>
+  </ul>
+<li>Open the Sonoff S31 plug.</li>
+  <ul>
+   <li>Do NOT plug the Sonoff plug into a 110V outlet while the plug case is open.</li>
+   <li>Open the plug by prying off the gray cap with your fingernails.</li>
+   <li>Slide the two white rails along the plug to expose the screws.</li>
+   <li>Unscrew the three screws.</li>
+   <li>The plug prongs should come out of the enclosing case.</li>
+  </ul>
+<li>Plug the USB cable into the converter, but do NOT plug the USB into a PC yet.</li>
+<li>Hook up the RS-232 wires from the converter to the Sonoff plug.</li>
+  <ul>
+  <li>Hook the clips up to the 4 pins nearest to the GND pin all on one side
+  of the converter. They should be labelled 3V3, TXD, RXD and GND.</li>
+  <li>The converter pin TX should be connected to Sonoff RX and converter
+  pin RX should be connected to Sonoff TX. Three of the pads are close to
+  one side in the Sonoff plug, and the ground pad is separated by two pads.</li>
+  <li>GND to ground and 3V3 on converter to VCC on plug</li>
+  </ul>
+<li>
+  Install esptool on Linux using:
+  <pre>sudo apt install esptool</pre>
+</li>
+<li>Download the Tasmota software tasmota.bin from https://tasmota.github.io/docs/Download/</li>
+</ul>
+
+<h3>Installing Software on Plug</h3>
+<ul>
+<li>Do NOT plug the Sonoff plug into a 110V outlet while loading software. It can
+damage the computer, the plug, and the converter.</li>
+<li>Set the plug into firmware download mode by grounding pin GPIO00 or hold GPIO 0
+  button (plug power button) while applying USB power (plugging in the USB)</li>
+<li>Different operating systems may require different commands to download and run
+esptool. It may be possible to run esptool without using the extension ".py" and
+may not require "python3".</li>
+<li>Use the following to check the setup. If periods and underscores appear for a long time,
+  something is wrong with the setup.
+  <pre>python3 esptool.py --port /dev/ttyUSB0 flash_id</pre>
+</li>
+<li>Use the following to save the existing software from the switch if desired.
+  <pre>python3 esptool.py --port /dev/ttyUSB0 read_flash 0x00000 0x100000 s31image.bin</pre>
+</li>
+<li>Erase the flash on the plug. If you get, "A fatal error occurred: ESP8266 ROM does not support function erase_flash.", then you may have to get a new version of esptool.
+  <pre>python3 esptool.py --port /dev/ttyUSB0 erase_flash</pre>
+</li>
+<li>Write Tasmota software to the plug.
+  <pre>python3 esptool.py --port /dev/ttyUSB0 write_flash -fs 1MB -fm dout 0x0 ../Firmware/tasmota.bin</pre>
+</li>
+</ul>
+
+<h3>Configuring Tasmoto WiFi</h3>
+<ul>
+  <li>Reboot plug and power up still using USB, but don't hold GPIO 0 button.</li>
+  <li>Use a phone to find the device and connect to the network starting with Tasmota.
+   At first the device acts as a WiFi host so it can be seen by the phone.
+   The blue LED on the Sonoff plug will be flashing at about a one second rate.
+   </li>
+  <li>When it is connected, the plug should prompt for the router for where to send
+  the monitoring information and should require a router password. This should be
+  the normal client (not admin) password. After entering the information, the screen should say,
+  "Configuration saved" and "Device will restart in a few seconds".</li>
+  <li>After a successful connection, the plug should send information to the router and an
+  HTML screen will be available to other devices connected to the router. The Tasmota
+  software should no longer be available to the phone.
+  </li>
+  <li>Once bound to WiFi, it will take quite a few seconds to show that it is
+   bound and display the new IP address. If not bound to WiFi, the blue LED keeps
+   flashing unless it is bound.	Once bound it flashes 5 times after power up.
+  </li>
+  <li>Use a browser and connect to the router. It should have a page that will show
+   the connected devices. Then find the new Sonoff plug by
+   viewing the connected devices. The MAC address is a unique address for every plug and
+   will not change. The IP address may change depending on router settings.
+  </li>
+  <li>As new plugs are configured, new tasmoto-??? devices should show up from the router.
+   The router can be used to find the IP address of each device. The IP address can
+   then be used to display the HTML page that is presented by the plug.</li>
+  <li>To reset the WiFi binding, use the Fast Power Cycle Device Recovery to reset the device.
+   Leave off 30 seconds, power on 6 times at less than 10 second rate, power on 7th time.
+   https://tasmota.github.io/docs/Device-Recovery/#fast-power-cycle-device-recovery</li>
+</ul>
+<h3>Configuring Tasmota SonOff Settings</h3>
+<ul>
+<li>Go to "Configuration" and "Configure Module"</Li>
+<li>Set to "Sonoff S31", device will take some time to reboot, then shows
+ screen again with new Sonoff switch measurements.</li>
+</ul>
+<h3>Automated Software and Web Control</h3>
+There is open source software that can use the Tasmota connections.
+
+<li>To view power on state with web requests. See https://tasmota.github.io/docs/Commands/
+<pre>
+	http://<ip>/cm?cmnd=PowerOnState	or	http://10.0.0.98/cm?cmnd=PowerOnState
+	It returned 3, which means switch relates to last saved state
+</pre>
+</li>
+<li>To set power on with web requests
+<pre>
+	http://<ip>/cm?cmnd=Power%20On
+	http://<ip>/cm?cmnd=PowerOnState%20On	or Off,...
+</pre>
+</li>
+<li>To control plug from phone, connect to the router/main WiFi from the phone.
+Use the browser and enter the IP address that
+was assigned (If DHCP) to the plug by the router.
+</li>
+</ul>
+<br>
+Sonoff S31 LED codes:
+7-1
+
+</html>
+
+
