@@ -14,7 +14,6 @@ def plotTotalSurplus(periodMeasurements:dict[str, List]):
 #		surpData.append(float(row[surpIndex]))
     dateData = periodMeasurements['Date']
     meterData = periodMeasurements['Main Meter']
-    print(periodMeasurements.keys())
 
     fig = plt.figure()
     fig.set_size_inches(10, 7)
@@ -22,10 +21,24 @@ def plotTotalSurplus(periodMeasurements:dict[str, List]):
     fig.autofmt_xdate()
     ax.grid(color='#eeeeee')
     ax.set_axisbelow(True)
-    ax.tick_params(axis='x', rotation=65)
 
-    ax.xaxis.set_major_locator(mdates.MonthLocator())
-    ax.xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m'))
+    newDate = True
+    if newDate:
+        ax.xaxis.reset_ticks()
+        for tick in ax.xaxis.get_major_ticks():
+            tick.set_pad(10)	# Pad in vertical points
+        ax.tick_params(axis='x', rotation=0)
+        ax.xaxis.set_major_locator(mdates.YearLocator(month=6))
+        ax.xaxis.set_major_formatter(mdates.DateFormatter('%Y'))
+        ax.xaxis.set_minor_locator(mdates.MonthLocator())
+        # minus sign gets rid of leading zero.
+        ax.xaxis.set_minor_formatter(mdates.DateFormatter('%-m'))
+        for tick in ax.xaxis.get_minor_ticks():
+            tick.label.set_fontsize(8)
+    else:
+        ax.tick_params(axis='x', rotation=65)
+        ax.xaxis.set_major_locator(mdates.MonthLocator())
+        ax.xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m'))
 
     plt.scatter(dateData, meterData, label='Balance')
     plt.plot(dateData, meterData)
