@@ -9,7 +9,31 @@ import numpy as numpy
 import math as math
 import csv as csv
 import SolarUseIrrad as sui
+import PlotBalance as pb
 from typing import Dict, List, Tuple
+
+# Power drop/loss from a cable depends on length.
+# https://sciencing.com/cable-length-vs-power-drop-12184174.html
+# https://teslamotorsclub.com/tmc/threads/charging-efficiency.122072/
+# https://www.solarreviews.com/blog/how-do-tesla-chargers-compare-to-other-electric-car-chargers
+# https://saxton.org/tom_saxton/2010/07/tesla-roadster-charging-rates.html
+# https://www.reddit.com/r/teslamotors/comments/8wt28u/l2_charging_efficiency_questions_model_3/
+# Fixed loss for cooling battery while charging.
+# Roadster - Charging is close to 270Wh/mile @ 240V-32A, but 414 Wh/mile at 120V-12A (which inverter?)
+# Tesla model 3 RWD has 7.7 kW onboard charger, other teslas have 11.5 kW
+# Originally used Tripp-Lite SPS-615-HG hospital grade surge protector 15' (closer to 16') 1800W
+# Then used Husky HD#448-665 15' extension cord from Home Depot. 14/3
+# Sonoff Pow R2 99% accuracy
+#
+# Losses for extension cord
+# 10 AWG .1 ohms for 100'
+# 12 AWG .16 ohms for 100'	15' is 0.024 ohms
+#	0.024 * 15A = 0.36V drop @ 15A		0.36V * 15A = 5.4W
+# 14 AWG .25 ohms for 100'	15' is 0.0375 ohms
+#	0.0375 * 15A = 0.5625V drop @ 15A	0.05625 * 15A = 8.4W	
+# The car reports about 77% of the energy compared to the wall plug.
+CarCalibration = 1.0
+GroundCapacity = '.6'
 
 def getDateMDY(dateStr:str) -> dt.datetime:
     if dateStr[-3] == '/':
@@ -41,7 +65,7 @@ def getGenKeys() -> List[str]:
     return ['Roof Solar', 'Ground Solar']
 
 def getUseKeys() -> List[str]:
-    return ['TV / Cable', 'Computers', 'Bath Heat', 'Living Heat', 'Car']
+    return ['Fridge', 'TV / Cable', 'Computers', 'Bath Heat', 'Living Heat', 'Car']
 
 def addDerivedValues(meas) -> None:
     meas['Total Solar'] = addLists(*[meas[key] for key in getGenKeys()])
@@ -64,6 +88,8 @@ class Measurements(dict):
                     conversion = 1.0
                     if header == 'Roof Solar':  # Convert MWH to KWH
                         conversion = 1000.0
+                    if header == 'Car':
+                        conversion = CarCalibration
                     # Convert all float column values.
                     val = 0.0
                     if len(rowValues[headerI]) > 0:
@@ -171,7 +197,7 @@ def plotDetails(periodMeasurements:dict[str, List]):
 
     roofGenColor = '#B0B0B0'
     roofGen = periodMeasurements['Roof Solar']
-    plt.scatter(dates, roofGen, label='Roof Solar .6 kW', color=roofGenColor, s=8)
+    plt.scatter(dates, roofGen, label='Roof Solar', color=roofGenColor, s=8)
     plt.plot(dates, roofGen, color=roofGenColor)
 
     totalGenColor = '#000000'
@@ -179,7 +205,7 @@ def plotDetails(periodMeasurements:dict[str, List]):
     plt.plot(dates, totalGen, color=totalGenColor)
 
     ax.legend()
-    plt.title('Solar Generation and Use - 3.24+.6 kW System')
+    plt.title('Solar Generation and Use - 3.24+' + GroundCapacity + ' kW System')
     plt.ylabel('Daily Solar Generation and Energy Use (kWh)')
     plt.savefig('ElecMeas.svg', bbox_inches='tight')
 
@@ -190,5 +216,8 @@ if __name__ == "__main__":
     plotDetails(periodMeasurements)
 
     periodMeasurements = measurements.getPeriodMeasurements()
+
+    pb.plotTotalSurplus(measurements)
+
     addDerivedValues(periodMeasurements)
     sui.plotAll(periodMeasurements, 'Temperature/noaa.csv')
