@@ -7,7 +7,7 @@ Hopefully helpful information about installing solar for a residence
 <a href="#Install">Installing the System</a><br>
 <a href="#Maintenance">Maintenance</a><br>
 <a href="HeatPump.md">Heat Pump</a><br>
-<a href="SonoffOutletMonitoring.html">Monitoring</a><br>
+<a href="SonoffOutletMonitoring.html">Electrical Monitoring</a><br>
 
 <h2 id="Intro">Introduction</h2>
 First a couple of graphs as an introduction and later the details. A 3.24 kW grid-tied system with 12 panels was installed on August of 2018. 
@@ -22,13 +22,13 @@ This graph shows the amount of electricity generated, and the amount used for tw
   <li>Mar 30, 2021 - Purchased an elecric car</li>
   <li>Aug 15, 2021 - Wildfires</li>
   <li>Oct 10, 2021 - Added a two panel ground system of about .6 kW with a ineffective Y&H 1kW inverter</li>
-  <li>Apr 28, 2022 - Purchased and installed Tasmoto on 4 Sonoff electrical monitoring plugs</li>
+  <li>Apr 28, 2022 - Purchased and installed Tasmoto on 4 Sonoff electrical monitoring plugs and later 4 more</li>
   <li>May 25, 2022 - Replaced the inverter with a used Vevor 1.2kW 4 channel inverter</li>
 </ul>
 
 <img src="generation/SolGenIrrad.svg">
 
-This graph shows the details of usage since May of 2022.
+This graph shows the details of usage since May of 2022 when I purchased Sonoff S31 monitoring plugs.
 <img src="generation/ElecGenMon.svg">
 
 The following graph shows the amount of surplus electricity. My utility has an annual true-up program, which means the amount you owe or are paid is figured out once per year. The goal generally is to generate the same amount of electricity over the year as you use. Note that coming out even for the year would be getting back to zero, so this indicates a large surplus the first and following years. This graph shows the Covid impact in March of 2020 where two of us were working at home.
@@ -36,11 +36,11 @@ The following graph shows the amount of surplus electricity. My utility has an a
 
 <h2 id="Selection">Selecting a System</h2>
 <h3>Initial Goals</h3>
-I wanted to be green, so I didn't mind paying a bit more for a system that is currently needed. I would expect that I will have an electric vehicle in the future. It is also typically true that you will get paid less for the electricty that is generated than you might expect, especially since it might be the case that electrical costs could drop in the future. So currently I plan to use the excess for electric heating in the winter, which will reduce the natrual gas furnace usage.
+I wanted to be green, so I didn't mind paying a bit more for a system that is currently needed. At the time I expected that I would have an electric vehicle in the future (purchased in April 2021). It is also typically true that you will get paid less for the electricty that is generated than you might expect, especially since it might be the case that electrical costs could drop in the future. So currently I plan to use the excess for electric heating in the winter, which will reduce the natural gas furnace usage.
 
 <h3>Estimating Use</h3>
 <h4>Electric Use</h4>
-I figured out our current use two ways. The first was to find the devices in the home that are using electricty. The second was by using utility bills.
+I figured out our current use two ways. The first was to find the devices in the home that are using electricity. The second was by using utility bills.
 <p>
 I used a Watt meter (Killawatt) to measure different devices and multiplied by estimated time of use. I am showing these numbers just to give an idea of what some devices can use.
 
@@ -73,7 +73,7 @@ I used a Watt meter (Killawatt) to measure different devices and multiplied by e
   <tr><td>3904</td><td>Total</td><td>Wh per day</td></tr>
   </table>
 
-By doing this exercise, I was able to find a few things we weren't really using, and I was surprised at what the entertainment cost was and that the Cable Box indicated that we were saving electricity when it was off, but really wasn't. Unplugging is more important than expected in some cases if you really want to use the least amount of electricity possible.
+By doing this exercise, I was able to find a few things we weren't really using, and I was surprised at what the entertainment cost was and that the Cable Box indicated that we were saving electricity when it was off, but really wasn't. Unplugging is more important than expected in some cases if you really want to use the least amount of electricity possible. Later I used the Sonoff S31 monitoring plugs to turn off the cable box power late at night.
 <p>
 I also looked at utility bills and found that our actual use for one month was 186 kWh, which means that our actual use is about 186kWh/month / 31 days = 6kWh/d. So the measurements and calculations above are not completely accurate. We must be using things a bit more than expected.
 
@@ -108,7 +108,7 @@ I looked at a few sample cars (2017) to see what the electricty use would be.
   <tr><td>112</td><td>Nissan Leaf</td><td></td></tr>
   </table>
 
-My typical driving at the moment is less than 8K miles/year = 21 miles per day. A Tesla Model 3 will go 100 miles on 23.7 kWh.
+My typical driving in 2018 is less than 8K miles/year = 21 miles per day. A Tesla Model 3 will go 100 miles on 23.7 kWh.
 So 23.7 / 100 = .237 kWh per mile * 21 miles = 4.977 or about 5 kWh per day. This means an electric car would double our electricty use.
 
 <h4>Electric Heating</h4>
@@ -348,5 +348,4 @@ Total cost was about 7385$ - 2216$ (federal rebate) = 5169$.
 <p>
 If you have any questions or comments, please let me know.
 <p>
-A good summary may take some time because the system has been used such a short amount of time. Wait till next time.
-
+I am now expecting the system to pay off in a total of 6 years from when it was installed. The payback for others will be different especially since there will not likely be 1 to 1 net metering in the future.
