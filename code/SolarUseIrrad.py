@@ -10,6 +10,7 @@ import math as math
 import csv as csv
 from typing import List, Tuple
 
+GroundCapacity = '.6'
 MaxDecl:int = 24
 
 def getDateMDY(dateStr:str) -> dt.datetime:
@@ -57,7 +58,7 @@ def getDecl(minGenKWh:float, maxGenKWh:float, dayPeriods:List[int]) -> List[floa
         if weekIndex > 160:   # 10/10/2021 Y&H 1000W inverter
             value *= 1.04
         if weekIndex > 194:   # 5/25/2022 Vevor/Marsrock inverter - same as Mophorn/WVC? 4*300W
-            value *= 1.08
+            value *= 1.1
         weekDecl.append(value)
         totalDays += period
     return weekDecl
@@ -182,11 +183,11 @@ def plotAll(periodMeasurements:dict[str, List], temperatureFn:str) -> None:
     plt.plot(dateData, useData)
     plt.scatter(dateData, declination, label='Declination', s=4)
     plt.plot(dateData, declination)
-    plt.title('Solar Generation and Use - 3.24+.5 kW System')
+    plt.title('Solar Generation and Use - 3.24+' + GroundCapacity + ' kW System')
     plt.ylabel('Avg. Daily Solar Generation and Energy Use (kWh)')
 
     for tick in ax.xaxis.get_major_ticks():
-        tick.set_pad(8)
+        tick.set_pad(10)
 
     if showTemperature:
         PlotLows = False
@@ -198,7 +199,7 @@ def plotAll(periodMeasurements:dict[str, List], temperatureFn:str) -> None:
             temperatures = []
             for tempi, lowTemp in enumerate(lowTemperatures):
                 temperatures.append((lowTemp + highTemperatures[tempi]) / 2)
-            label = 'Avg. Daily Temp'
+            label = 'Daily Temp'
             yLabel = 'Inverted Avg. Daily Temperature (F)'
         invTemperatures, scaledMinTemp, scaledMaxTemp = scaleTemperatures(temperatures, useData)
 #        invTemperatures, tempToUseScale = scaleTemperatures(temperatures, useData)
@@ -241,13 +242,13 @@ def plotAll(periodMeasurements:dict[str, List], temperatureFn:str) -> None:
                     tempYTemp.append('')
 
     if showAnnotations:
-        annotate(plt, fig, ax, dateData, '3/18/20', 'Covid', -0.05, .24)
-        annotate(plt, fig, ax, dateData, '9/12/20', 'Fires', -0.02, .28)
+        annotate(plt, fig, ax, dateData, '3/18/20', 'Covid', -0.05, .21)
+        annotate(plt, fig, ax, dateData, '9/12/20', 'Fires', -0.035, .27)
         annotate(plt, fig, ax, dateData, '11/12/20', 'Heat Pump', .03, .24)
         annotate(plt, fig, ax, dateData, '3/30/21', 'Elec. Car', .01, .20)
-        annotate(plt, fig, ax, dateData, '8/15/21', 'Fires', .065, .28)
+        annotate(plt, fig, ax, dateData, '8/15/21', 'Fires', .064, .27)
         annotate(plt, fig, ax, dateData, '10/10/21', '+.5 kW', .08, .24)
-        annotate(plt, fig, ax, dateData, '5/25/22', 'New .5 kW Inverter', .065, .28)
+        annotate(plt, fig, ax, dateData, '5/25/22', 'New ' + GroundCapacity + ' kW\n Inverter', .06, .24)
 
 #        plt.yticks([0.85,0.105], [min(lowTemperatures), max(lowTemperatures)])
         if showTemperature:
