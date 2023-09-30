@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+
+# sudo apt install python3-pip
+# sudo pip3 install matplotlib
+
 # mypy --strict
 import datetime as dt
 import matplotlib
@@ -100,7 +104,7 @@ class Measurements(dict):
     # Returns the differences of neigboring rows.
     def getPeriodMeasurements(self, startDate=None) -> dict[str, List]:
         periodMeasurements = {}
-        startDateIndex = 1
+        startDateIndex = 1 	# Default if no startDate is used
         if startDate:
             dates = self['Date']
             for dateI, date in enumerate(dates):
@@ -108,6 +112,7 @@ class Measurements(dict):
                     startDateIndex = dateI
                     break
         for key in self.keys():
+            # n is indexed for each row.
             for n in range(startDateIndex, len(self['Date'])):
                 y = self[key]
                 if key not in periodMeasurements:
@@ -125,12 +130,18 @@ class Measurements(dict):
                         # and increase from there.
                         if diffVal < 0 and key != 'Main Meter':
                             diffVal = y[n]
-#                            print(key, n, y[n])
+                        if n-startDateIndex+1 < len(periodMeasurements):
+                            periodDays = periodMeasurements['PeriodDays'][n-startDateIndex+1]
                         periodMeasurements[key].append(diffVal / periodDays)
-#                        if key == 'Roof Solar' and n > startDateIndex:
-#                            print(n, self['Date'][n], y[n], y[n-1])
+#                        if key == 'Roof Solar':
+#                            i = n - startDateIndex
+#                            print(i, self['Date'][i], y[i], y[i-1])
                     except TypeError:
                         periodMeasurements[key].append(0.0)
+        if False:
+            for key in periodMeasurements:
+                if key == 'Roof Solar':
+                    print('rf', periodMeasurements[key][-3:])
         if False:
             n = 46
             for key in periodMeasurements:
@@ -141,7 +152,7 @@ class Measurements(dict):
                         'Measured Use', 'Other'
                            ]:
     # Looks like mistake in source .csv file for 11-5 to 11-14-2022. Original graph did not
-    # use in weekly data for 11-14. Roof Solar is wrong.
+    # use weekly data for 11-14. Roof Solar is wrong.
     # with day period: n=28, 11-14-2022 other is 2.47, total use = 5.85, measured use = 3.33
         # PeriodDays = 3
                     print(key, periodMeasurements[key][n])
